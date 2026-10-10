@@ -1,148 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Cross Browser Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="tests" name="Firefox(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="3" parallel="tests" name="Edge(failed)">
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage">
+      <class name="ecom.swaglabs.Login.Functional_testcase_login">
         <methods>
-          <include name="beforemethod"/>
-          <include name="TC_SM_UC02_SortProducts"/>
-          <include name="aftermethod"/>
-          <include name="sortfiltervisible"/>
-          <include name="VerifyProductsDisplayed"/>
+          <include name="differentLoginCredentials" invocation-numbers="3"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage -->
-      <class name="ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="aftermethod"/>
-          <include name="TC_CHECKOUT_SM01_verifyAllfiledsaredisplayed"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage -->
-      <class name="ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="TC_CART_SM04_verifyCartToCheckout"/>
-          <include name="TC_CART_SM01_verifyLoginAndProductsPage"/>
-          <include name="TC_CART_SM03_verifyCartPageShowsAddedProduct"/>
-          <include name="aftermethod"/>
-          <include name="TC_CART_SM02_verifyProductCanBeAddedToCart"/>
-          <include name="TC_CART_SM05_verifyProductCanBeRemovedFromCart"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart -->
-      <class name="ecom.swaglabs.Shopping_cart.Negative_testcase">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="TC_CART_I02_addingAndRemovingRemovesBadge"/>
-          <include name="aftermethod"/>
-          <include name="TC_CART_I01_VerifyCartAccessWithoutLogin"/>
-          <include name="TC_CART_F01_emptycart"/>
-          <include name="verifyCartCannotcontinueshoppingWithoutLogin"/>
-          <include name="TC_CART_S01_BrowserBackAfterCompletedOrder"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.Shopping_cart.Negative_testcase -->
-      <class name="ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="TC_CHECKOUT_S01_fullCompleeteOrder"/>
-          <include name="aftermethod"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage -->
-      <class name="ecom.swaglabs.ProductPage.Integration_Testcase_Productpage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="Add3Products"/>
-          <include name="aftermethod"/>
-          <include name="NoProductAddedCartEmpty"/>
-          <include name="AddValidProductToCart"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.ProductPage.Integration_Testcase_Productpage -->
-      <class name="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="aftermethod"/>
-          <include name="TC_CART_F07"/>
-          <include name="TC_CART_F05_all6Items"/>
-          <include name="TC_CART_F01_oneProduct"/>
-          <include name="TC_CART_F08"/>
-          <include name="TC_CART_F02_cartNavigate"/>
-          <include name="TC_CART_F03_oneProductRemove"/>
-          <include name="TC_CART_F06_addAndRemove"/>
-          <include name="TC_CART_F04"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.Shopping_cart.Functional_Testcase_cart -->
-      <class name="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="EmptyCartZero"/>
-          <include name="ValidProductDetails"/>
-          <include name="aftermethod"/>
-          <include name="verifyaddtocartbuttononpage"/>
-          <include name="CartCountOneToTwo"/>
-          <include name="RefreshPage"/>
-          <include name="SortNameAscending"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.ProductPage.Functional_TestCase_Productpage -->
-      <class name="ecom.swaglabs.ProductPage.Negative_Testcase_Productpage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="aftermethod"/>
-          <include name="NoProductAddedCartEmpty"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.ProductPage.Negative_Testcase_Productpage -->
-      <class name="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="aftermethod"/>
-          <include name="TC_CHECKOUT_F01_checkoutpageinvaliddataofonlyonefield"/>
-          <include name="TC_CHECKOUT_S01_cannotCompleteWithCancel"/>
-          <include name="TC_CHECKOUT_F01_checkoutpageinvaliddataofalldata"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage -->
-      <class name="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="aftermethod"/>
-          <include name="TC_CHECKOUT_02_checkoutpagevisibleafterdata"/>
-          <include name="TC_CHECKOUT_01_checkoutpagevisible"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage -->
-      <class name="ecom.swaglabs.Shopping_cart.System_Testcase_cart">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="TC_CART_S02_MultipleProductPurchase"/>
-          <include name="aftermethod"/>
-          <include name="TC_CART_S01_SingleProductPurchase"/>
-          <include name="TC_CART_S03_RemoveAndPurchaseDifferentProduct"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.Shopping_cart.System_Testcase_cart -->
-      <class name="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="TC_CART_I02_VerifyProductDetailsInCart"/>
-          <include name="TC_CART_I05_VerifyCartAfterLogoutAndLogin"/>
-          <include name="aftermethod"/>
-          <include name="TC_CART_I01_VerifyCartBadgeAndCartRows"/>
-          <include name="TC_CART_I03_VerifyProductDetailsToCart"/>
-          <include name="TC_CART_I06_VerifyCancelCheckoutPreservesCart"/>
-          <include name="TC_CART_I04_VerifyRemoveItemUpdatesProductsPage"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.Shopping_cart.Integration_Testcase_cart -->
-      <class name="ecom.swaglabs.ProductPage.System_Testcase_Productpage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="aftermethod"/>
-          <include name="VerifyProductSelectionAndCart"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.ProductPage.System_Testcase_Productpage -->
-      <class name="ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="aftermethod"/>
-          <include name="TC_CHECKOUT_I01_productincartandcheckoutaresame"/>
-        </methods>
-      </class> <!-- ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage -->
+      </class> <!-- ecom.swaglabs.Login.Functional_testcase_login -->
     </classes>
-  </test> <!-- Firefox(failed) -->
+  </test> <!-- Edge(failed) -->
 </suite> <!-- Failed suite [Cross Browser Suite] -->

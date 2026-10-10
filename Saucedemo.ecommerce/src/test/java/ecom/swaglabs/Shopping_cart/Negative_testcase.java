@@ -21,7 +21,7 @@ import objRepo.Checkout_pg;
 import objRepo.Home_pg;
 import objRepo.Product_pg;
 
-public class Negative_testcase_cart extends BaseClassSauceDemo{
+public class Negative_testcase extends BaseClassSauceDemo{
 	
 	 @Test(groups =  {"functional","negative"} )
 	 public void emptycart() throws InterruptedException 

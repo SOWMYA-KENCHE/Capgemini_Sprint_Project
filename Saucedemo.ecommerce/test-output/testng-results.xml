@@ -1,62 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
-    <line>
-      <![CDATA[Login successful on edge]]>
-    </line>
-    <line>
-      <![CDATA[User logged in successfully with valid credentials]]>
-    </line>
-    <line>
-      <![CDATA[verifyCart Cannot Be Opened Without Login -- negative 04 Passed]]>
-    </line>
-    <line>
-      <![CDATA[closing browser]]>
-    </line>
   </reporter-output>
-  <suite started-at="2026-10-10T09:53:56 IST" name="Default suite" finished-at="2026-10-10T09:54:16 IST" duration-ms="20746">
+  <suite started-at="2026-10-10T16:55:35 IST" name="Default suite" finished-at="2026-10-10T16:55:35 IST" duration-ms="57">
     <groups>
-      <group name="negative">
-        <method signature="Negative_testcase.verifyCartCannotcontinueshoppingWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@18078bef]" name="verifyCartCannotcontinueshoppingWithoutLogin" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
-      </group> <!-- negative -->
-      <group name="smoke">
-        <method signature="Negative_testcase.verifyCartCannotcontinueshoppingWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@18078bef]" name="verifyCartCannotcontinueshoppingWithoutLogin" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
-      </group> <!-- smoke -->
+      <group name="functional">
+        <method signature="Functional_Testcase_CheckoutPage.checkoutPageVisible()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@313ac989]" name="checkoutPageVisible" class="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage"/>
+      </group> <!-- functional -->
     </groups>
-    <test started-at="2026-10-10T09:53:56 IST" name="Default test" finished-at="2026-10-10T09:54:16 IST" duration-ms="20746">
-      <class name="ecom.swaglabs.Shopping_cart.Negative_testcase">
-        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@18078bef]" started-at="2026-10-10T09:53:56 IST" name="beforemethod" finished-at="2026-10-10T09:54:11 IST" duration-ms="15657" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-10-10T16:55:35 IST" name="Default test" finished-at="2026-10-10T16:55:35 IST" duration-ms="57">
+      <class name="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@313ac989]" started-at="2026-10-10T16:55:35 IST" name="beforemethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1791631535828" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method beforemethod but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1318566113\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method beforemethod but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1318566113\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[Login successful on edge]]>
-            </line>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifyCartCannotcontinueshoppingWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@18078bef]" started-at="2026-10-10T09:54:12 IST" name="verifyCartCannotcontinueshoppingWithoutLogin" finished-at="2026-10-10T09:54:16 IST" duration-ms="4522" status="PASS">
+        <test-method signature="checkoutPageVisible()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@313ac989]" started-at="2026-10-10T16:55:35 IST" name="checkoutPageVisible" finished-at="2026-10-10T16:55:35 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method beforemethod but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1318566113\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method beforemethod but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1318566113\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[User logged in successfully with valid credentials]]>
-            </line>
-            <line>
-              <![CDATA[verifyCart Cannot Be Opened Without Login -- negative 04 Passed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- verifyCartCannotcontinueshoppingWithoutLogin -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@18078bef]" started-at="2026-10-10T09:54:16 IST" name="aftermethod" finished-at="2026-10-10T09:54:16 IST" duration-ms="461" status="PASS">
+        </test-method> <!-- checkoutPageVisible -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@313ac989]" started-at="2026-10-10T16:55:35 IST" name="aftermethod" finished-at="2026-10-10T16:55:35 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[closing browser]]>
-            </line>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-      </class> <!-- ecom.swaglabs.Shopping_cart.Negative_testcase -->
+      </class> <!-- ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

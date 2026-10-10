@@ -13,7 +13,7 @@
             <package name="ecom.swaglabs.Shopping_cart"/>
         </packages>
     </test>
-    
+     
     <test name="Edge">
         <parameter name="browser" value="edge"/>
         <packages>

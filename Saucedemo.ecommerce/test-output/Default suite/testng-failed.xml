@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage">
+      <class name="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage">
         <methods>
           <include name="beforemethod"/>
-          <include name="ValidProductDetails"/>
           <include name="aftermethod"/>
+          <include name="checkoutPageVisible"/>
         </methods>
-      </class> <!-- ecom.swaglabs.ProductPage.Functional_TestCase_Productpage -->
+      </class> <!-- ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
