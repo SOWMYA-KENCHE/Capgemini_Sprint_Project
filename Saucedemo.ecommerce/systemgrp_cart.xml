@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="saucedemo system Group Suite">
+  <test name=" system Tests">
+    <groups>
+            <run>
+                <include name="system"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="ecom.swaglabs.Login"/>
+            <package name="ecom.swaglabs.ProductPage"/> 
+            <package name="ecom.swaglabs.Shopping_cart"/>
+            <package name="ecom.swaglabs.CheckoutPage"/>
+        </packages>
+
+    </test>
+
+</suite>

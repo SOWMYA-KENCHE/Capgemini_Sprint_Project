@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="saucedemo parallel Suite" >
+  <test name="Parallel Tests" parallel="classes" thread-count="5">
+    <classes>
+      <class name="ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage"/>
+      <class name="ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage"/>
+      <class name="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+      <class name="ecom.swaglabs.Login.Functional_testcase_login"/>
+      <class name="ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage"/>
+      <class name="ecom.swaglabs.Login.System_Testcase_Loginpage"/>
+      <class name="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage"/>
+      <class name="ecom.swaglabs.ProductPage.System_Testcase_Productpage"/>
+      <class name="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart"/>
+      <class name="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage"/>
+      <class name="ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage"/>
+      <class name="ecom.swaglabs.Shopping_cart.System_Testcase_cart"/>
+      <class name="ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart"/>
+      <class name="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+      <class name="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+      <class name="ecom.swaglabs.Login.Smoke_TestCase_Loginpage"/>
+      <class name="ecom.swaglabs.Login.Integration_testcase_LoginPage"/>
+      <class name="ecom.swaglabs.ProductPage.Negative_Testcase_Productpage"/>
+      <class name="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage"/>
+      <class name="ecom.swaglabs.ProductPage.Integration_Testcase_Productpage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cart Smoke Group Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Cart Smoke Tests(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecom.swaglabs.Shopping_cart.smoke_Testcase_cart">
+        <methods>
+          <include name="TC_CART_SM02_verifyProductCanBeAddedToCart"/>
+          <include name="TC_CART_SM03_verifyCartPageShowsAddedProduct"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Shopping_cart.smoke_Testcase_cart -->
+    </classes>
+  </test> <!-- Cart Smoke Tests(failed) -->
+</suite> <!-- Failed suite [Cart Smoke Group Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [saucedemo Suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)(failed)">
+    <classes>
+      <class name="ecom.swaglabs.Shopping_cart.System_Testcase_cart">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="TC_CART_S01_SingleProductPurchase"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Shopping_cart.System_Testcase_cart -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [saucedemo Suite]]] -->

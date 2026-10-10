@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [shopping cart Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="shopping cart Test(failed)">
+    <classes>
+      <class name="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart">
+        <methods>
+          <include name="TC_CART_I05_VerifyCartAfterLogoutAndLogin" invocation-numbers="0"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="TC_CART_I04_VerifyRemoveItemUpdatesProductsPage"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Shopping_cart.Integration_Testcase_cart -->
+    </classes>
+  </test> <!-- shopping cart Test(failed) -->
+</suite> <!-- Failed suite [shopping cart Suite] -->

@@ -1,0 +1,33 @@
+package base;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+public class BaseClassLogin 
+{
+    protected WebDriver driver = null;
+
+    protected SauceDemoExecutors s = new SauceDemoExecutors();
+
+    @BeforeMethod(groups =  {"smoke","functional","integration","system","negative"} )
+    public void beforeMethod() throws IOException, InterruptedException
+    {
+        // launch browser
+        s.executors("LAUNCH_BROWSER");
+        // get driver
+        driver = s.getDriver();
+        // application
+        s.executors("OPEN_URL");
+    }
+
+    @AfterMethod(groups =  {"smoke","functional","integration","system","negative"} )
+    public void afterMethod() throws IOException, InterruptedException {
+        // close browser
+        if (driver != null) {
+            s.executors("CLOSE_BROWSER");
+        }
+    }
+}

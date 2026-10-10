@@ -1,0 +1,906 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 08 23:35:17 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>427 seconds (427788 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I04_VerifyRemoveItemUpdatesProductsPage()'><b>TC_CART_I04_VerifyRemoveItemUpdatesProductsPage</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1597415366" onClick='toggleBox("Output-1597415366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1597415366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1597415366">
+User logged in successfully with valid credentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Remove&apos;]&quot;}
+  (Session info: MicrosoftEdge=154.0.4258.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.15&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dd6c9a6dc85df8943522156ced4854de, findElement {using=xpath, value=//button[text()=&apos;Remove&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.62, fedcm:accounts: true, goog:processID: 13588, ms:edgeOptions: {debuggerAddress: localhost:41244}, msedge: {msedgedriverVersion: 154.0.4258.62 (49f7c5590dad..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:41244/devtoo..., se:cdpVersion: 154.0.4258.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd6c9a6dc85df8943522156ced4854de
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I04_VerifyRemoveItemUpdatesProductsPage(Integration_Testcase_cart.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1597415366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1597415366'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Remove&apos;]&quot;}
+  (Session info: MicrosoftEdge=154.0.4258.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.15&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dd6c9a6dc85df8943522156ced4854de, findElement {using=xpath, value=//button[text()=&apos;Remove&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.62, fedcm:accounts: true, goog:processID: 13588, ms:edgeOptions: {debuggerAddress: localhost:41244}, msedge: {msedgedriverVersion: 154.0.4258.62 (49f7c5590dad..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:41244/devtoo..., se:cdpVersion: 154.0.4258.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd6c9a6dc85df8943522156ced4854de
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I04_VerifyRemoveItemUpdatesProductsPage(Integration_Testcase_cart.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>11</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.verifyCartCannotBeOpenedWithoutLogin()'><b>verifyCartCannotBeOpenedWithoutLogin</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1316198760" onClick='toggleBox("Output-1316198760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1316198760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1316198760">
+User logged in successfully with valid credentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: MicrosoftEdge=154.0.4258.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.15&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [98e59e183dcd20d1098f3ec1ceefac2f, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.62, fedcm:accounts: true, goog:processID: 6576, ms:edgeOptions: {debuggerAddress: localhost:41768}, msedge: {msedgedriverVersion: 154.0.4258.62 (49f7c5590dad..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:41768/devtoo..., se:cdpVersion: 154.0.4258.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98e59e183dcd20d1098f3ec1ceefac2f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at ecom.swaglabs.Shopping_cart.Negative_testcase.verifyCartCannotBeOpenedWithoutLogin(Negative_testcase.java:150)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1316198760", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1316198760'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: MicrosoftEdge=154.0.4258.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.15&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [98e59e183dcd20d1098f3ec1ceefac2f, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.62, fedcm:accounts: true, goog:processID: 6576, ms:edgeOptions: {debuggerAddress: localhost:41768}, msedge: {msedgedriverVersion: 154.0.4258.62 (49f7c5590dad..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:41768/devtoo..., se:cdpVersion: 154.0.4258.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98e59e183dcd20d1098f3ec1ceefac2f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at ecom.swaglabs.Shopping_cart.Negative_testcase.verifyCartCannotBeOpenedWithoutLogin(Negative_testcase.java:150)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>11</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@49438269</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_invalidPassword()'><b>TC_LOGIN_invalidPassword</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-1166203398" onClick='toggleBox("Output-1166203398", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1166203398" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1166203398">
+user not logged in beacause of inavlid password-- F01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@367ffa75</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_F01()'><b>TC_CART_F01</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1497818432" onClick='toggleBox("Output-1497818432", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1497818432" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1497818432">
+User logged in successfully with valid credentials<br/>
+ invalid checkout -- negative 01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@49438269</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Integration_testcase_LoginPage.TC_LOGIN_I01_menuIsVisibleAfterLogin()'><b>TC_LOGIN_I01_menuIsVisibleAfterLogin</b><br>Test class: ecom.swaglabs.Login.Integration_testcase_LoginPage<br/>
+<a href="#Output-1644391173" onClick='toggleBox("Output-1644391173", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1644391173" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1644391173">
+menu is accessible and visible  -- I02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Login.Integration_testcase_LoginPage@ba2f4ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart.TC_CART_SM05_verifyProductCanBeRemovedFromCart()'><b>TC_CART_SM05_verifyProductCanBeRemovedFromCart</b><br>Test class: ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart<br/>
+<a href="#Output-1555738557" onClick='toggleBox("Output-1555738557", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1555738557" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1555738557">
+User logged in successfully with valid credentials<br/>
+product can be removed from cart-- SM05 passed<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@2cd76f31</td></tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage.TC_CHECKOUT_02_checkoutpagevisibleafterdata()'><b>TC_CHECKOUT_02_checkoutpagevisibleafterdata</b><br>Test class: ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage<br/>
+<a href="#Output-1325996032" onClick='toggleBox("Output-1325996032", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1325996032" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1325996032">
+User is successfully logged in with valid credentials<br/>
+Checkout page is open with valid information -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@55fe41ea</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.System_Testcase_Loginpage.TC_LOGIN_logoutFromMenu()'><b>TC_LOGIN_logoutFromMenu</b><br>Test class: ecom.swaglabs.Login.System_Testcase_Loginpage<br/>
+<a href="#Output-1413154615" onClick='toggleBox("Output-1413154615", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1413154615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1413154615">
+User logged in successfully with valid credentials<br/>
+user is logged out succesfully from hamburger menu-- S02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.System_Testcase_Loginpage@bcec361</td></tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage.TC_CHECKOUT_S01_cannotCompleteWithCancel()'><b>TC_CHECKOUT_S01_cannotCompleteWithCancel</b><br>Test class: ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage<br/>
+<a href="#Output-1038651236" onClick='toggleBox("Output-1038651236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1038651236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1038651236">
+User is successfully logged in with valid credentials<br/>
+User cannot complete order after clicking cancel on checkout overview page -- S01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@26794848</td></tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage.TC_CHECKOUT_S01_fullCompleeteOrder()'><b>TC_CHECKOUT_S01_fullCompleeteOrder</b><br>Test class: ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage<br/>
+<a href="#Output-1638001196" onClick='toggleBox("Output-1638001196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1638001196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1638001196">
+User is successfully logged in with valid credentials<br/>
+complete product purchase is done  -- S01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage@6ed3ccb2</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.System_Testcase_cart.TC_CART_S02_MultipleProductPurchase()'><b>TC_CART_S02_MultipleProductPurchase</b><br>Test class: ecom.swaglabs.Shopping_cart.System_Testcase_cart<br/>
+<a href="#Output-1232539385" onClick='toggleBox("Output-1232539385", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1232539385" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1232539385">
+User logged in successfully with valid credentials<br/>
+Multiple product purchase completed successfully -- S02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.Shopping_cart.System_Testcase_cart@40005471</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcase_login.TC_LOGIN_differentLoginCredentials()'><b>TC_LOGIN_differentLoginCredentials</b><br>Test class: ecom.swaglabs.Login.Functional_testcase_login<br>Parameters: visual_user, secret_sauce<br/>
+<a href="#Output-981865495" onClick='toggleBox("Output-981865495", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-981865495" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-981865495">
+valid users logged in -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Functional_testcase_login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_invalidblankspace()'><b>TC_LOGIN_invalidblankspace</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-357551837" onClick='toggleBox("Output-357551837", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-357551837" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-357551837">
+user not logged in because of blank username and password -- F03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@367ffa75</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Smoke_TestCase_Loginpage.TC_LOGIN_SM01_loginButtonClickable()'><b>TC_LOGIN_SM01_loginButtonClickable</b><br>Test class: ecom.swaglabs.Login.Smoke_TestCase_Loginpage<br/>
+<a href="#Output-1398968310" onClick='toggleBox("Output-1398968310", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1398968310" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1398968310">
+Login button is displayed and clickable -- SM01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Login.Smoke_TestCase_Loginpage@1c1bbc4e</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.System_Testcase_Loginpage.TC_LOGIN_S01_verifyCompleteLogin()'><b>TC_LOGIN_S01_verifyCompleteLogin</b><br>Test class: ecom.swaglabs.Login.System_Testcase_Loginpage<br/>
+<a href="#Output-2117142060" onClick='toggleBox("Output-2117142060", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2117142060" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2117142060">
+User logged in successfully with valid credentials<br/>
+Complete Login journey passed-- S01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.System_Testcase_Loginpage@bcec361</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I06_VerifyCancelCheckoutPreservesCart()'><b>TC_CART_I06_VerifyCancelCheckoutPreservesCart</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1987812710" onClick='toggleBox("Output-1987812710", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1987812710" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1987812710">
+User logged in successfully with valid credentials<br/>
+Cancel from Checkout preserves Cart items-- I06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Integration_testcase_LoginPage.TC_LOGIN_I01_addProductToCartAfterLogin()'><b>TC_LOGIN_I01_addProductToCartAfterLogin</b><br>Test class: ecom.swaglabs.Login.Integration_testcase_LoginPage<br/>
+<a href="#Output-1561240239" onClick='toggleBox("Output-1561240239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1561240239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1561240239">
+user is able to login and add a product to cart -- I01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.swaglabs.Login.Integration_testcase_LoginPage@ba2f4ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcase_login.TC_LOGIN_differentLoginCredentials()'><b>TC_LOGIN_differentLoginCredentials</b><br>Test class: ecom.swaglabs.Login.Functional_testcase_login<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1969752268" onClick='toggleBox("Output-1969752268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1969752268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1969752268">
+valid users logged in -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Functional_testcase_login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_SM01_invalidLogin()'><b>TC_LOGIN_SM01_invalidLogin</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-1251831481" onClick='toggleBox("Output-1251831481", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1251831481" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1251831481">
+Invalid login rejected--SM01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@367ffa75</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.System_Testcase_cart.TC_CART_S01_SingleProductPurchase()'><b>TC_CART_S01_SingleProductPurchase</b><br>Test class: ecom.swaglabs.Shopping_cart.System_Testcase_cart<br/>
+<a href="#Output-720613460" onClick='toggleBox("Output-720613460", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-720613460" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-720613460">
+User logged in successfully with valid credentials<br/>
+Single product purchase completed successfully -- S01 Passed<br/>
+Cart is empty after purchase<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.swaglabs.Shopping_cart.System_Testcase_cart@40005471</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart.TC_CART_SM02_verifyProductCanBeAddedToCart()'><b>TC_CART_SM02_verifyProductCanBeAddedToCart</b><br>Test class: ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart<br/>
+<a href="#Output-554817465" onClick='toggleBox("Output-554817465", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554817465" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554817465">
+User logged in successfully with valid credentials<br/>
+product can be added -- SM02 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@2cd76f31</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F06()'><b>TC_CART_F06</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-305468700" onClick='toggleBox("Output-305468700", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-305468700" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-305468700">
+login is successful<br/>
+F06 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I05_VerifyCartAfterLogoutAndLogin()'><b>TC_CART_I05_VerifyCartAfterLogoutAndLogin</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-751749858" onClick='toggleBox("Output-751749858", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-751749858" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-751749858">
+User logged in successfully with valid credentials<br/>
+I05 Passed -- Cart product present after logout and again login: true<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcase_login.TC_LOGIN_differentLoginCredentials()'><b>TC_LOGIN_differentLoginCredentials</b><br>Test class: ecom.swaglabs.Login.Functional_testcase_login<br>Parameters: error_user, secret_sauce<br/>
+<a href="#Output-1314688755" onClick='toggleBox("Output-1314688755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1314688755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1314688755">
+valid users logged in -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Functional_testcase_login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage.TC_CHECKOUT_F01_checkoutpageinvaliddata()'><b>TC_CHECKOUT_F01_checkoutpageinvaliddata</b><br>Test class: ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage<br/>
+<a href="#Output-12897515" onClick='toggleBox("Output-12897515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12897515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12897515">
+User is successfully logged in with valid credentials<br/>
+Checkout page is open with valid information -- F01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@26794848</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I01_VerifyCartBadgeAndCartRows()'><b>TC_CART_I01_VerifyCartBadgeAndCartRows</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1627840438" onClick='toggleBox("Output-1627840438", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1627840438" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1627840438">
+User logged in successfully with valid credentials<br/>
+Cart badge count matches Cart row count -- I01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F05()'><b>TC_CART_F05</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-1752220610" onClick='toggleBox("Output-1752220610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1752220610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1752220610">
+login is successful<br/>
+all 6 products added are displayed in cart -- F05 passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart.TC_CART_SM04_verifyCartToCheckout()'><b>TC_CART_SM04_verifyCartToCheckout</b><br>Test class: ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart<br/>
+<a href="#Output-448432504" onClick='toggleBox("Output-448432504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-448432504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-448432504">
+User logged in successfully with valid credentials<br/>
+cart to checkout-- SM04 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@2cd76f31</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I02_VerifyProductDetailsInCart()'><b>TC_CART_I02_VerifyProductDetailsInCart</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1774316039" onClick='toggleBox("Output-1774316039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1774316039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1774316039">
+User logged in successfully with valid credentials<br/>
+Product name, description and price are correctly displayed in Cart -- I02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F04()'><b>TC_CART_F04</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-327853004" onClick='toggleBox("Output-327853004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-327853004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-327853004">
+login is successful<br/>
+product 1 is still in cart -- F04 passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage.TC_CHECKOUT_SM01_verifyAllfiledsaredisplayed()'><b>TC_CHECKOUT_SM01_verifyAllfiledsaredisplayed</b><br>Test class: ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage<br/>
+<a href="#Output-1555521648" onClick='toggleBox("Output-1555521648", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1555521648" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1555521648">
+User is successfully logged in with valid credentials<br/>
+All the fields are displayed -- SM01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage@3d285d7e</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcase_login.TC_LOGIN_differentLoginCredentials()'><b>TC_LOGIN_differentLoginCredentials</b><br>Test class: ecom.swaglabs.Login.Functional_testcase_login<br>Parameters: performance_glitch_user, secret_sauce<br/>
+<a href="#Output-1821330375" onClick='toggleBox("Output-1821330375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821330375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821330375">
+valid users logged in -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>ecom.swaglabs.Login.Functional_testcase_login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_invalidUsername()'><b>TC_LOGIN_invalidUsername</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-1742810664" onClick='toggleBox("Output-1742810664", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1742810664" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1742810664">
+user not logged in because of invalid username -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@367ffa75</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_I01_productPageNotAccessWithoutLogin()'><b>TC_LOGIN_I01_productPageNotAccessWithoutLogin</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-1778013494" onClick='toggleBox("Output-1778013494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1778013494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1778013494">
+Product page not accessable without login-- F05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@367ffa75</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.System_Testcase_cart.TC_CART_S03_RemoveAndPurchaseDifferentProduct()'><b>TC_CART_S03_RemoveAndPurchaseDifferentProduct</b><br>Test class: ecom.swaglabs.Shopping_cart.System_Testcase_cart<br/>
+<a href="#Output-61210602" onClick='toggleBox("Output-61210602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-61210602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-61210602">
+User logged in successfully with valid credentials<br/>
+Removed product was not purchased and different product was successfully purchased-- S03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.Shopping_cart.System_Testcase_cart@40005471</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F08()'><b>TC_CART_F08</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-1935707824" onClick='toggleBox("Output-1935707824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1935707824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1935707824">
+User logged in successfully with valid credentials<br/>
+F08 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F01()'><b>TC_CART_F01</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-1659452474" onClick='toggleBox("Output-1659452474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1659452474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1659452474">
+User logged in successfully with valid credentials<br/>
+product 1 is displayed in cart -- F01 passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_I01_VerifyCartAccessWithoutLogin()'><b>TC_CART_I01_VerifyCartAccessWithoutLogin</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-725271149" onClick='toggleBox("Output-725271149", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-725271149" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-725271149">
+Cart cannot be accessed without login -- negative 02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@49438269</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcase_login.TC_LOGIN_F01_validLoginCredentials()'><b>TC_LOGIN_F01_validLoginCredentials</b><br>Test class: ecom.swaglabs.Login.Functional_testcase_login<br/>
+<a href="#Output-1384626783" onClick='toggleBox("Output-1384626783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1384626783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1384626783">
+valid login is succesfully logged in -- F01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Login.Functional_testcase_login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F02()'><b>TC_CART_F02</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-1760622380" onClick='toggleBox("Output-1760622380", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1760622380" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1760622380">
+login is successful<br/>
+User successfully navigated to cart section -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart.TC_CART_SM01_verifyLoginAndProductsPage()'><b>TC_CART_SM01_verifyLoginAndProductsPage</b><br>Test class: ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart<br/>
+<a href="#Output-1157955931" onClick='toggleBox("Output-1157955931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1157955931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1157955931">
+User logged in successfully with valid credentials<br/>
+cart is displayed -- SM01 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@2cd76f31</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Smoke_TestCase_Loginpage.TC_LOGIN_SM02_loginPage()'><b>TC_LOGIN_SM02_loginPage</b><br>Test class: ecom.swaglabs.Login.Smoke_TestCase_Loginpage<br/>
+<a href="#Output-1666491658" onClick='toggleBox("Output-1666491658", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1666491658" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1666491658">
+Login page is displayed -- SM01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Login.Smoke_TestCase_Loginpage@1c1bbc4e</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart.TC_CART_SM03_verifyCartPageShowsAddedProduct()'><b>TC_CART_SM03_verifyCartPageShowsAddedProduct</b><br>Test class: ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart<br/>
+<a href="#Output-911673654" onClick='toggleBox("Output-911673654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-911673654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-911673654">
+User logged in successfully with valid credentials<br/>
+cart shows added product -- SM03 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@2cd76f31</td></tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage.TC_CHECKOUT_I01_productincartandcheckoutaresame()'><b>TC_CHECKOUT_I01_productincartandcheckoutaresame</b><br>Test class: ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage<br/>
+<a href="#Output-45019084" onClick='toggleBox("Output-45019084", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-45019084" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-45019084">
+User is successfully logged in with valid credentials<br/>
+Product in cart and overview page -- I01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage@36ebc363</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I03_VerifyProductDetailsToCart()'><b>TC_CART_I03_VerifyProductDetailsToCart</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1031486232" onClick='toggleBox("Output-1031486232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1031486232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1031486232">
+User logged in successfully with valid credentials<br/>
+Product Details page successfully updated Cart-- I03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcase_login.TC_LOGIN_differentLoginCredentials()'><b>TC_LOGIN_differentLoginCredentials</b><br>Test class: ecom.swaglabs.Login.Functional_testcase_login<br>Parameters: problem_user, secret_sauce<br/>
+<a href="#Output-1019831085" onClick='toggleBox("Output-1019831085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1019831085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1019831085">
+valid users logged in -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Functional_testcase_login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_S01_BrowserBackAfterCompletedOrder()'><b>TC_CART_S01_BrowserBackAfterCompletedOrder</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1346870315" onClick='toggleBox("Output-1346870315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1346870315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1346870315">
+User logged in successfully with valid credentials<br/>
+Order completed successfully<br/>
+Browser Back executed after completed order<br/>
+Current URL after Browser Back: https://www.saucedemo.com/inventory.html<br/>
+Cart badge count after Browser Back: 0<br/>
+execution completed - actual Browser Back behaviour recorded-- negative 03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@49438269</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F03()'><b>TC_CART_F03</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-2009215919" onClick='toggleBox("Output-2009215919", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2009215919" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2009215919">
+login is successful<br/>
+product 1 is removed from the cart -- F03 passed<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F07()'><b>TC_CART_F07</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-3981395" onClick='toggleBox("Output-3981395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3981395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3981395">
+User logged in successfully with valid credentials<br/>
+F07 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.LOGIN_SYS_03_invalidLoginJourney()'><b>LOGIN_SYS_03_invalidLoginJourney</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-1660570248" onClick='toggleBox("Output-1660570248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1660570248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1660570248">
+Negative Login journey passed--S01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@367ffa75</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_locked_user()'><b>TC_LOGIN_locked_user</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-704063109" onClick='toggleBox("Output-704063109", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-704063109" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-704063109">
+user not logged in because of locked_user-- F04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@367ffa75</td></tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage.TC_CHECKOUT_01_checkoutpagevisible()'><b>TC_CHECKOUT_01_checkoutpagevisible</b><br>Test class: ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage<br/>
+<a href="#Output-726061624" onClick='toggleBox("Output-726061624", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-726061624" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-726061624">
+User is successfully logged in with valid credentials<br/>
+checkout page is displayed -- F01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@55fe41ea</td></tr>
+</table><p>
+</body>
+</html>

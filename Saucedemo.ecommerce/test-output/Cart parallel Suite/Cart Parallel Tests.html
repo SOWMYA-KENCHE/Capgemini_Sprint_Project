@@ -1,0 +1,423 @@
+<html>
+<head>
+<title>TestNG:  Cart Parallel Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cart Parallel Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 08 02:02:22 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>108 seconds (108207 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F03()'><b>TC_CART_F03</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-371230305" onClick='toggleBox("Output-371230305", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-371230305" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-371230305">
+login is successful<br/>
+product 1 is removed from the cart -- F03 passed<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@3b69e7d1</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.smoke_Testcase_cart.TC_CART_SM01_verifyLoginAndProductsPage()'><b>TC_CART_SM01_verifyLoginAndProductsPage</b><br>Test class: ecom.swaglabs.Shopping_cart.smoke_Testcase_cart<br/>
+<a href="#Output-109644298" onClick='toggleBox("Output-109644298", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-109644298" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-109644298">
+User logged in successfully with valid credentials<br/>
+cart is displayed -- SM01 passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.smoke_Testcase_cart@3e694b3f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.System_Testcase_cart.TC_CART_S03_RemoveAndPurchaseDifferentProduct()'><b>TC_CART_S03_RemoveAndPurchaseDifferentProduct</b><br>Test class: ecom.swaglabs.Shopping_cart.System_Testcase_cart<br/>
+<a href="#Output-529108108" onClick='toggleBox("Output-529108108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-529108108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-529108108">
+User logged in successfully with valid credentials<br/>
+Removed product was not purchased and different product was successfully purchased-- S03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>ecom.swaglabs.Shopping_cart.System_Testcase_cart@1573f9fc</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.smoke_Testcase_cart.TC_CART_SM03_verifyCartPageShowsAddedProduct()'><b>TC_CART_SM03_verifyCartPageShowsAddedProduct</b><br>Test class: ecom.swaglabs.Shopping_cart.smoke_Testcase_cart<br/>
+<a href="#Output-1838905170" onClick='toggleBox("Output-1838905170", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1838905170" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1838905170">
+User logged in successfully with valid credentials<br/>
+cart shows added product -- SM03 passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.smoke_Testcase_cart@3e694b3f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I03_VerifyProductDetailsToCart()'><b>TC_CART_I03_VerifyProductDetailsToCart</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1654405457" onClick='toggleBox("Output-1654405457", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1654405457" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1654405457">
+User logged in successfully with valid credentials<br/>
+Product Details page successfully updated Cart-- I03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5542c4ed</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F02()'><b>TC_CART_F02</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-1472562132" onClick='toggleBox("Output-1472562132", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1472562132" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1472562132">
+login is successful<br/>
+User successfully navigated to cart section -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@3b69e7d1</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F01()'><b>TC_CART_F01</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-1569029074" onClick='toggleBox("Output-1569029074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1569029074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1569029074">
+User logged in successfully with valid credentials<br/>
+product 1 is displayed in cart -- F01 passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@3b69e7d1</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F04()'><b>TC_CART_F04</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-606754994" onClick='toggleBox("Output-606754994", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-606754994" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-606754994">
+login is successful<br/>
+product 1 is still in cart -- F04 passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@3b69e7d1</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_I01_VerifyCartAccessWithoutLogin()'><b>TC_CART_I01_VerifyCartAccessWithoutLogin</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1125540687" onClick='toggleBox("Output-1125540687", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1125540687" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1125540687">
+Cart cannot be accessed without login -- negative 02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@815b41f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.smoke_Testcase_cart.TC_CART_SM02_verifyProductCanBeAddedToCart()'><b>TC_CART_SM02_verifyProductCanBeAddedToCart</b><br>Test class: ecom.swaglabs.Shopping_cart.smoke_Testcase_cart<br/>
+<a href="#Output-48125061" onClick='toggleBox("Output-48125061", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-48125061" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-48125061">
+User logged in successfully with valid credentials<br/>
+product can be added -- SM02 passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.smoke_Testcase_cart@3e694b3f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.System_Testcase_cart.TC_CART_S02_MultipleProductPurchase()'><b>TC_CART_S02_MultipleProductPurchase</b><br>Test class: ecom.swaglabs.Shopping_cart.System_Testcase_cart<br/>
+<a href="#Output-1803458976" onClick='toggleBox("Output-1803458976", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1803458976" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1803458976">
+User logged in successfully with valid credentials<br/>
+Multiple product purchase completed successfully -- S02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.Shopping_cart.System_Testcase_cart@1573f9fc</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I05_VerifyCartAfterLogoutAndLogin()'><b>TC_CART_I05_VerifyCartAfterLogoutAndLogin</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-511393701" onClick='toggleBox("Output-511393701", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-511393701" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-511393701">
+User logged in successfully with valid credentials<br/>
+I05 Passed -- Cart product present after logout and again login: true<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5542c4ed</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.verifyCartCannotBeOpenedWithoutLogin()'><b>verifyCartCannotBeOpenedWithoutLogin</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1882052978" onClick='toggleBox("Output-1882052978", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1882052978" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1882052978">
+User logged in successfully with valid credentials<br/>
+verifyCart Cannot Be Opened Without Login -- negative 04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@815b41f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I01_VerifyCartBadgeAndCartRows()'><b>TC_CART_I01_VerifyCartBadgeAndCartRows</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1734609924" onClick='toggleBox("Output-1734609924", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1734609924" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1734609924">
+User logged in successfully with valid credentials<br/>
+Cart badge count matches Cart row count -- I01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5542c4ed</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.smoke_Testcase_cart.TC_CART_SM05_verifyProductCanBeRemovedFromCart()'><b>TC_CART_SM05_verifyProductCanBeRemovedFromCart</b><br>Test class: ecom.swaglabs.Shopping_cart.smoke_Testcase_cart<br/>
+<a href="#Output-130856750" onClick='toggleBox("Output-130856750", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-130856750" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-130856750">
+User logged in successfully with valid credentials<br/>
+product can be removed from cart-- SM05 passed<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>ecom.swaglabs.Shopping_cart.smoke_Testcase_cart@3e694b3f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F07()'><b>TC_CART_F07</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-1952772546" onClick='toggleBox("Output-1952772546", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1952772546" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1952772546">
+User logged in successfully with valid credentials<br/>
+F07 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@3b69e7d1</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.System_Testcase_cart.TC_CART_S01_SingleProductPurchase()'><b>TC_CART_S01_SingleProductPurchase</b><br>Test class: ecom.swaglabs.Shopping_cart.System_Testcase_cart<br/>
+<a href="#Output-193406062" onClick='toggleBox("Output-193406062", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-193406062" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-193406062">
+User logged in successfully with valid credentials<br/>
+Single product purchase completed successfully -- S01 Passed<br/>
+Cart is empty after purchase<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>ecom.swaglabs.Shopping_cart.System_Testcase_cart@1573f9fc</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.smoke_Testcase_cart.TC_CART_SM04_verifyCartToCheckout()'><b>TC_CART_SM04_verifyCartToCheckout</b><br>Test class: ecom.swaglabs.Shopping_cart.smoke_Testcase_cart<br/>
+<a href="#Output-1085201735" onClick='toggleBox("Output-1085201735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1085201735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1085201735">
+User logged in successfully with valid credentials<br/>
+cart to checkout-- SM04 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.smoke_Testcase_cart@3e694b3f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I02_VerifyProductDetailsInCart()'><b>TC_CART_I02_VerifyProductDetailsInCart</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1153064913" onClick='toggleBox("Output-1153064913", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1153064913" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1153064913">
+User logged in successfully with valid credentials<br/>
+Product name, description and price are correctly displayed in Cart -- I02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5542c4ed</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I04_VerifyRemoveItemUpdatesProductsPage()'><b>TC_CART_I04_VerifyRemoveItemUpdatesProductsPage</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-1806421337" onClick='toggleBox("Output-1806421337", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1806421337" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1806421337">
+User logged in successfully with valid credentials<br/>
+Removing item resets Products page button -- I04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5542c4ed</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_S01_BrowserBackAfterCompletedOrder()'><b>TC_CART_S01_BrowserBackAfterCompletedOrder</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1566884951" onClick='toggleBox("Output-1566884951", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1566884951" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1566884951">
+User logged in successfully with valid credentials<br/>
+Order completed successfully<br/>
+Browser Back executed after completed order<br/>
+Current URL after Browser Back: https://www.saucedemo.com/checkout-step-two.html<br/>
+Cart badge count after Browser Back: 0<br/>
+Browser Back returned to Checkout Overview. Recording actual behaviour as required.<br/>
+execution completed - actual Browser Back behaviour recorded-- negative 03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@815b41f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F05()'><b>TC_CART_F05</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-672660770" onClick='toggleBox("Output-672660770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-672660770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-672660770">
+login is successful<br/>
+all 6 products added are displayed in cart -- F05 passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@3b69e7d1</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F06()'><b>TC_CART_F06</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-568153066" onClick='toggleBox("Output-568153066", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-568153066" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-568153066">
+login is successful<br/>
+F06 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@3b69e7d1</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Functional_Testcase_cart.TC_CART_F08()'><b>TC_CART_F08</b><br>Test class: ecom.swaglabs.Shopping_cart.Functional_Testcase_cart<br/>
+<a href="#Output-1362515534" onClick='toggleBox("Output-1362515534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1362515534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1362515534">
+User logged in successfully with valid credentials<br/>
+F08 passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@3b69e7d1</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Integration_Testcase_cart.TC_CART_I06_VerifyCancelCheckoutPreservesCart()'><b>TC_CART_I06_VerifyCancelCheckoutPreservesCart</b><br>Test class: ecom.swaglabs.Shopping_cart.Integration_Testcase_cart<br/>
+<a href="#Output-937537304" onClick='toggleBox("Output-937537304", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-937537304" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-937537304">
+User logged in successfully with valid credentials<br/>
+Cancel from Checkout preserves Cart items-- I06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5542c4ed</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_F01()'><b>TC_CART_F01</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1501064966" onClick='toggleBox("Output-1501064966", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501064966" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501064966">
+User logged in successfully with valid credentials<br/>
+-- negative 01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@815b41f</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:   negative Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'> negative Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 08 19:13:30 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>74 seconds (74925 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>negative </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage.TC_CHECKOUT_S01_cannotCompleteWithCancel()'><b>TC_CHECKOUT_S01_cannotCompleteWithCancel</b><br>Test class: ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage<br/>
+<a href="#Output-1734023423" onClick='toggleBox("Output-1734023423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1734023423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1734023423">
+User is successfully logged in with valid credentials<br/>
+User cannot complete order after clicking cancel on checkout overview page -- S01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@7dc0f706</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_invalidPassword()'><b>TC_LOGIN_invalidPassword</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-495289088" onClick='toggleBox("Output-495289088", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-495289088" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-495289088">
+user not logged in beacause of inavlid password-- F01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@2002fc1d</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_F01()'><b>TC_CART_F01</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-114414807" onClick='toggleBox("Output-114414807", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-114414807" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-114414807">
+User logged in successfully with valid credentials<br/>
+-- negative 01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@7d20d0b</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_S01_BrowserBackAfterCompletedOrder()'><b>TC_CART_S01_BrowserBackAfterCompletedOrder</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-476973576" onClick='toggleBox("Output-476973576", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-476973576" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-476973576">
+User logged in successfully with valid credentials<br/>
+Order completed successfully<br/>
+Browser Back executed after completed order<br/>
+Current URL after Browser Back: https://www.saucedemo.com/checkout-step-two.html<br/>
+Cart badge count after Browser Back: 0<br/>
+Browser Back returned to Checkout Overview. Recording actual behaviour as required.<br/>
+execution completed - actual Browser Back behaviour recorded-- negative 03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@7d20d0b</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.LOGIN_SYS_03_invalidLoginJourney()'><b>LOGIN_SYS_03_invalidLoginJourney</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-522188921" onClick='toggleBox("Output-522188921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-522188921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-522188921">
+Negative Login journey passed--S01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@2002fc1d</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_invalidUsername()'><b>TC_LOGIN_invalidUsername</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-1963590892" onClick='toggleBox("Output-1963590892", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1963590892" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1963590892">
+user not logged in because of invalid username -- F02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@2002fc1d</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_invalidblankspace()'><b>TC_LOGIN_invalidblankspace</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-1254651534" onClick='toggleBox("Output-1254651534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1254651534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1254651534">
+user not logged in because of blank username and password -- F03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@2002fc1d</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_I01_productPageNotAccessWithoutLogin()'><b>TC_LOGIN_I01_productPageNotAccessWithoutLogin</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@2002fc1d</td></tr>
+<tr>
+<td title='ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage.TC_CHECKOUT_F01_checkoutpageinvaliddata()'><b>TC_CHECKOUT_F01_checkoutpageinvaliddata</b><br>Test class: ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage<br/>
+<a href="#Output-1755514347" onClick='toggleBox("Output-1755514347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1755514347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1755514347">
+User is successfully logged in with valid credentials<br/>
+Checkout page is open with valid information -- F01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@7dc0f706</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.TC_CART_I01_VerifyCartAccessWithoutLogin()'><b>TC_CART_I01_VerifyCartAccessWithoutLogin</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1028472807" onClick='toggleBox("Output-1028472807", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1028472807" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1028472807">
+Cart cannot be accessed without login -- negative 02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@7d20d0b</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_locked_user()'><b>TC_LOGIN_locked_user</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-1798443618" onClick='toggleBox("Output-1798443618", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1798443618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1798443618">
+user not logged in because of locked_user-- F04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@2002fc1d</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_TestCase_Loginpage.TC_LOGIN_SM01_invalidLogin()'><b>TC_LOGIN_SM01_invalidLogin</b><br>Test class: ecom.swaglabs.Login.Negative_TestCase_Loginpage<br/>
+<a href="#Output-256004657" onClick='toggleBox("Output-256004657", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-256004657" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-256004657">
+Invalid login rejected--SM01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Negative_TestCase_Loginpage@2002fc1d</td></tr>
+<tr>
+<td title='ecom.swaglabs.Shopping_cart.Negative_testcase.verifyCartCannotBeOpenedWithoutLogin()'><b>verifyCartCannotBeOpenedWithoutLogin</b><br>Test class: ecom.swaglabs.Shopping_cart.Negative_testcase<br/>
+<a href="#Output-1526866775" onClick='toggleBox("Output-1526866775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1526866775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1526866775">
+User logged in successfully with valid credentials<br/>
+verifyCart Cannot Be Opened Without Login -- negative 04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Shopping_cart.Negative_testcase@7d20d0b</td></tr>
+</table><p>
+</body>
+</html>
