@@ -6,6 +6,7 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -13,23 +14,25 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
 import genericUtility.DataFromPropertyFile;
-import objRepo.Login_pg;
-import objRepo.Home_pg;
 
 public class SauceDemoImpl {
 
-    protected WebDriver driver = null;
+    protected WebDriver driver;
 
-    DataFromPropertyFile commondata = new DataFromPropertyFile();
+    private final DataFromPropertyFile commondata =
+            new DataFromPropertyFile();
 
-    // Browser launch with browser name
+    // Launch browser by name
     public void launchbrowser(String browser) {
+
+        if (browser == null || browser.isBlank()) {
+            throw new IllegalArgumentException(
+                    "Browser name cannot be empty");
+        }
 
         if (browser.equalsIgnoreCase("edge")) {
 
             EdgeOptions options = new EdgeOptions();
-
-            // Configuration for Jenkins execution
             options.addArguments("--headless=new");
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
@@ -44,74 +47,81 @@ public class SauceDemoImpl {
 
             Map<String, Object> prefs = new HashMap<>();
             prefs.put(
-                "profile.password_manager_leak_detection",
-                false
-            );
+                    "profile.password_manager_leak_detection",
+                    false);
 
             options.setExperimentalOption("prefs", prefs);
-
             driver = new ChromeDriver(options);
 
         } else {
-
-            throw new RuntimeException(
-                "Unsupported browser: " + browser
-            );
+            throw new IllegalArgumentException(
+                    "Unsupported browser: " + browser);
         }
 
-        configureBrowser();
-    }
-
-    // Browser launch using the property file
-    public void launchbrowser() throws IOException {
-
-        String browser =
-            commondata.getDataFromPropertyFile("Browser");
-
-        // Reuse the same configuration for both overloads
-        launchbrowser(browser);
-    }
-
-    // Common browser configuration
-    private void configureBrowser() {
-
         driver.manage().timeouts()
-              .implicitlyWait(Duration.ofSeconds(10));
+                .implicitlyWait(Duration.ofSeconds(10));
+    }
 
-        driver.manage().window().maximize();
+    // Launch browser using property file
+    public void launchbrowser() throws IOException {
+        String browser =
+                commondata.getDataFromPropertyFile("Browser");
+
+        launchbrowser(browser);
     }
 
     // Open application URL
     public void openurl() throws IOException {
-
         String url =
-            commondata.getDataFromPropertyFile("Url");
+                commondata.getDataFromPropertyFile("Url");
+
+        if (driver == null) {
+            throw new IllegalStateException(
+                    "Launch browser before opening URL");
+        }
 
         driver.get(url);
     }
 
-    // Return the current WebDriver instance
-    public WebDriver getDriver() {
-        return driver;
+    // Enter username
+    public void username() throws IOException {
+        String username =
+                commondata.getDataFromPropertyFile("Username");
+
+        driver.findElement(By.id("user-name"))
+                .sendKeys(username);
     }
 
-    // Close the browser safely
-    public void closebrowser() {
+    // Enter password
+    public void password() throws IOException {
+        String password =
+                commondata.getDataFromPropertyFile("Password");
 
+        driver.findElement(By.id("password"))
+                .sendKeys(password);
+    }
+
+    // Click login button
+    public void loginbutton() {
+        driver.findElement(By.id("login-button")).click();
+    }
+
+    // Open menu and click logout
+    public void logoutbutton() {
+        driver.findElement(By.id("react-burger-menu-btn")).click();
+        driver.findElement(By.id("logout_sidebar_link")).click();
+    }
+
+    // Close browser
+    public void closebrowser() {
         if (driver != null) {
             driver.quit();
             driver = null;
         }
     }
 
-    /*
-     * Keep your existing username(), password(),
-     * loginbutton(), logoutbutton(), and other
-     * page-object interaction methods here unchanged.
-     *
-     * Their exact implementations depend on the
-     * methods and locators in your Login_pg and Home_pg
-     * classes, which are not included in the code
-     * available in this conversation.
-     */
+    // Return driver
+    public WebDriver getDriver() {
+        return driver;
+    }
 }
