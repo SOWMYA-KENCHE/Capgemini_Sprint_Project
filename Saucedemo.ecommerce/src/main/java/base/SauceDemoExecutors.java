@@ -2,64 +2,53 @@
 package base;
 
 import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 
 public class SauceDemoExecutors {
 
     private final SauceDemoImpl s = new SauceDemoImpl();
 
-    // Executor method with browser parameter
     public void executors(String keyword, String browser)
             throws IOException, InterruptedException {
 
-        if (keyword == null) {
-            throw new IllegalArgumentException(
-                "Keyword cannot be null"
-            );
-        }
-
-        if (keyword.equalsIgnoreCase("LAUNCH_BROWSER")) {
+        if ("LAUNCH_BROWSER".equalsIgnoreCase(keyword)) {
             s.launchbrowser(browser);
         } else {
             throw new IllegalArgumentException(
-                "Unsupported keyword: " + keyword
-            );
+                    "Unsupported keyword: " + keyword);
         }
     }
 
-    // Executor method using the property file
     public void executors(String keyword)
             throws IOException, InterruptedException {
 
-        if (keyword == null) {
-            throw new IllegalArgumentException(
-                "Keyword cannot be null"
-            );
-        }
-
-        if (keyword.equalsIgnoreCase("LAUNCH_BROWSER")) {
+        if ("LAUNCH_BROWSER".equalsIgnoreCase(keyword)) {
             s.launchbrowser();
-        } else if (keyword.equalsIgnoreCase("OPEN_URL")) {
+
+        } else if ("OPEN_URL".equalsIgnoreCase(keyword)) {
             s.openurl();
-        } else if (keyword.equalsIgnoreCase("USERNAME")) {
+
+        } else if ("USERNAME".equalsIgnoreCase(keyword)) {
             s.username();
-        } else if (keyword.equalsIgnoreCase("PASSWORD")) {
+
+        } else if ("PASSWORD".equalsIgnoreCase(keyword)) {
             s.password();
-        } else if (keyword.equalsIgnoreCase("LOGIN_BUTTON")) {
+
+        } else if ("LOGIN_BUTTON".equalsIgnoreCase(keyword)) {
             s.loginbutton();
-        } else if (keyword.equalsIgnoreCase("LOGOUT_BUTTON")) {
+
+        } else if ("LOGOUT_BUTTON".equalsIgnoreCase(keyword)) {
             s.logoutbutton();
-        } else if (keyword.equalsIgnoreCase("CLOSE_BROWSER")) {
+
+        } else if ("CLOSE_BROWSER".equalsIgnoreCase(keyword)) {
             s.closebrowser();
+
         } else {
             throw new IllegalArgumentException(
-                "Unsupported keyword: " + keyword
-            );
+                    "Unsupported keyword: " + keyword);
         }
     }
 
-    // Return WebDriver for use in test classes
     public WebDriver getDriver() {
         return s.getDriver();
     }
