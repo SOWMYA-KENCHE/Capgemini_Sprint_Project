@@ -22,7 +22,7 @@ public class BaseClassSauceDemo
 
 	    @BeforeMethod(groups =  {"smoke","functional","integration","system","negative"} )
 	    @Parameters("browser")
-	    public void beforemethod(@Optional("edge")String browser) throws IOException, InterruptedException
+	    public void beforemethod(@Optional("chrome")String browser) throws IOException, InterruptedException
 	    {
 	        s = new SauceDemoExecutors();
 	        s.executors("LAUNCH_BROWSER", browser);
