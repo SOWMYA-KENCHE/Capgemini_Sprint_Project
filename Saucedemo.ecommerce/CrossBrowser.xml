@@ -14,8 +14,8 @@
         </packages>
     </test>
      
-    <test name="Edge">
-        <parameter name="browser" value="edge"/>
+    <test name="Firefox">
+        <parameter name="browser" value="firefox"/>
         <packages>
             <package name="ecom.swaglabs.CheckoutPage"/>
             <package name="ecom.swaglabs.Login"/>
