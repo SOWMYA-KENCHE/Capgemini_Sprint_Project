@@ -1,112 +1,2944 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="68" passed="68" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[valid users logged in -- F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[Products are sorted- SM03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[F06 passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Product in cart and overview page -- I01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[complete product purchase is done  -- S01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[valid users logged in -- F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[user is logged out succesfully from hamburger menu-- S02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[product values are displayed- SM01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[User cannot complete order after clicking cancel on checkout overview page -- S01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[all 6 products added are displayed in cart -- F05 passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Complete Login journey passed-- S01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[valid users logged in -- F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[sort is diaplayed- SM02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[F08 passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page is open with invalid information -- F01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[complete product page testing -- S01]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[valid users logged in -- F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to cart section -- F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page is open with invalid zipcode information -- I02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Cancel from Checkout preserves Cart items-- I06 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Cart value change-- F04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[valid users logged in -- F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[product 1 is displayed in cart -- F01 passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[valid login is succesfully logged in -- F01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[All the fields are displayed -- SM01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[I05 Passed -- Cart product present after logout and again login: true]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[cart shows added product -- SM03 passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Multiple product purchase completed successfully -- S02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Cart badge count matches Cart row count -- I01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[empty cart displayed 0 count on product page-- F03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[cart to checkout-- SM04 passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Product name, description and price are correctly displayed in Cart -- I02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[cart is displayed -- SM01 passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[after refresh product page is displayed-- F06 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[product 1 is removed from the cart -- F03 passed]]>
+    </line>
+    <line>
+      <![CDATA[Product Details page successfully updated Cart-- I03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[product can be added -- SM02 passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[sorting from z to A --F01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Removing item resets Products page button -- I04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[F07 passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[products details are validated--F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Invalid login rejected--SM01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[product 1 is still in cart -- F04 passed]]>
+    </line>
+    <line>
+      <![CDATA[Removed product was not purchased and different product was successfully purchased-- S03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[add to cart button id diaplyed-- F05 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Negative Login journey passed--S01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login button is displayed and clickable -- SM01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[user not logged in beacause of inavlid password-- F01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Order completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed -- SM01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Single product purchase completed successfully -- S01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Back executed after completed order]]>
+    </line>
+    <line>
+      <![CDATA[Current URL after Browser Back: https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[product can be removed from cart-- SM05 passed]]>
+    </line>
+    <line>
+      <![CDATA[user not logged in because of invalid username -- F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[user is able to login and add a product to cart -- I01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[user not logged in because of blank username and password -- F03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Cart is empty after purchase]]>
+    </line>
+    <line>
+      <![CDATA[Cart badge count after Browser Back: 0]]>
+    </line>
+    <line>
+      <![CDATA[execution completed - actual Browser Back behaviour recorded-- negative 03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[menu is accessible and visible  -- I02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Product page not accessable without login-- F05 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[user not logged in because of locked_user-- F04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[checkout page is displayed -- F01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cart cannot be accessed without login -- negative 01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[3 product is added to cart]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[product is added to cart]]>
+    </line>
+    <line>
+      <![CDATA[added product to empty cart]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page is open with valid information -- F02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[ add to remove to get badge count -- negative 02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[logout successful]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[added product to empty cart]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[ invalid checkout -- negative 01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login successful on edge]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[verifyCart Cannot Be Opened Without Login -- negative 04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-10-10T16:55:35 IST" name="Default suite" finished-at="2026-10-10T16:55:35 IST" duration-ms="57">
+  <suite started-at="2026-10-12T11:02:55 IST" name="saucedemo parallel Suite" finished-at="2026-10-12T11:06:05 IST" duration-ms="189869">
     <groups>
+      <group name="negative">
+        <method signature="Negative_TestCase_CheckoutPage.cannotCompleteWithCancel()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" name="cannotCompleteWithCancel" class="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage"/>
+        <method signature="Negative_TestCase_CheckoutPage.checkoutPageInvalidDataOfAllData()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" name="checkoutPageInvalidDataOfAllData" class="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage"/>
+        <method signature="Negative_TestCase_CheckoutPage.checkoutpageinvalidDataOfOnlyOneField()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" name="checkoutpageinvalidDataOfOnlyOneField" class="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidLogin()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidLogin" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidLoginJourney()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidLoginJourney" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidPassword()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidPassword" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidUsername()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidUsername" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidblankspace()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidblankspace" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.productPageNotAccessWithoutLogin()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="productPageNotAccessWithoutLogin" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.verifylocked_user()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="verifylocked_user" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_Testcase_Productpage.NoProductAddedCartEmpty()[pri:0, instance:ecom.swaglabs.ProductPage.Negative_Testcase_Productpage@38afe297]" name="NoProductAddedCartEmpty" class="ecom.swaglabs.ProductPage.Negative_Testcase_Productpage"/>
+        <method signature="Negative_testcase.BrowserBackAfterCompletedOrder()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="BrowserBackAfterCompletedOrder" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+        <method signature="Negative_testcase.VerifyCartAccessWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="VerifyCartAccessWithoutLogin" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+        <method signature="Negative_testcase.addingAndRemovingRemovesBadge()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="addingAndRemovingRemovesBadge" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+        <method signature="Negative_testcase.emptycart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="emptycart" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+        <method signature="Negative_testcase.verifyCartCannotcontinueshoppingWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="verifyCartCannotcontinueshoppingWithoutLogin" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+      </group> <!-- negative -->
       <group name="functional">
-        <method signature="Functional_Testcase_CheckoutPage.checkoutPageVisible()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@313ac989]" name="checkoutPageVisible" class="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage"/>
+        <method signature="Functional_Testcase_CheckoutPage.checkoutPageVisible()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@2df3b89c]" name="checkoutPageVisible" class="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage"/>
+        <method signature="Functional_Testcase_CheckoutPage.checkoutPageVisibleAfterData()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@2df3b89c]" name="checkoutPageVisibleAfterData" class="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage"/>
+        <method signature="Negative_TestCase_CheckoutPage.checkoutPageInvalidDataOfAllData()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" name="checkoutPageInvalidDataOfAllData" class="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage"/>
+        <method signature="Negative_TestCase_CheckoutPage.checkoutpageinvalidDataOfOnlyOneField()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" name="checkoutpageinvalidDataOfOnlyOneField" class="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage"/>
+        <method signature="Functional_testcase_login.differentLoginCredentials(java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" name="differentLoginCredentials" class="ecom.swaglabs.Login.Functional_testcase_login"/>
+        <method signature="Functional_testcase_login.validLoginCredentials()[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" name="validLoginCredentials" class="ecom.swaglabs.Login.Functional_testcase_login"/>
+        <method signature="Negative_TestCase_Loginpage.invalidPassword()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidPassword" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidUsername()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidUsername" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidblankspace()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidblankspace" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Negative_TestCase_Loginpage.verifylocked_user()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="verifylocked_user" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Functional_TestCase_Productpage.CartCountOneToTwo()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" name="CartCountOneToTwo" class="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage"/>
+        <method signature="Functional_TestCase_Productpage.EmptyCartZero()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" name="EmptyCartZero" class="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage"/>
+        <method signature="Functional_TestCase_Productpage.RefreshPage()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" name="RefreshPage" class="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage"/>
+        <method signature="Functional_TestCase_Productpage.SortNameAscending()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" name="SortNameAscending" class="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage"/>
+        <method signature="Functional_TestCase_Productpage.ValidProductDetails()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" name="ValidProductDetails" class="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage"/>
+        <method signature="Functional_TestCase_Productpage.verifyaddtocartbuttononpage()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" name="verifyaddtocartbuttononpage" class="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage"/>
+        <method signature="Functional_Testcase_cart.addAndRemove()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" name="addAndRemove" class="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+        <method signature="Functional_Testcase_cart.all6Items()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" name="all6Items" class="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+        <method signature="Functional_Testcase_cart.bigProductDetailsAreSame()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" name="bigProductDetailsAreSame" class="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+        <method signature="Functional_Testcase_cart.cartNavigate()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" name="cartNavigate" class="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+        <method signature="Functional_Testcase_cart.oneProduct()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" name="oneProduct" class="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+        <method signature="Functional_Testcase_cart.oneProductRemove()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" name="oneProductRemove" class="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+        <method signature="Functional_Testcase_cart.productsInAndAfter()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" name="productsInAndAfter" class="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+        <method signature="Functional_Testcase_cart.verifyOneProductInCaRt()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" name="verifyOneProductInCaRt" class="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart"/>
+        <method signature="Negative_testcase.emptycart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="emptycart" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
       </group> <!-- functional -->
+      <group name="system">
+        <method signature="Negative_TestCase_CheckoutPage.cannotCompleteWithCancel()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" name="cannotCompleteWithCancel" class="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage"/>
+        <method signature="System_TestCase_CheckoutPage.fullCompleeteOrder()[pri:0, instance:ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage@1ff4931d]" name="fullCompleeteOrder" class="ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidLoginJourney()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidLoginJourney" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="System_Testcase_Loginpage.logoutFromMenu()[pri:0, instance:ecom.swaglabs.Login.System_Testcase_Loginpage@247bddad]" name="logoutFromMenu" class="ecom.swaglabs.Login.System_Testcase_Loginpage"/>
+        <method signature="System_Testcase_Loginpage.verifyCompleteLogin()[pri:0, instance:ecom.swaglabs.Login.System_Testcase_Loginpage@247bddad]" name="verifyCompleteLogin" class="ecom.swaglabs.Login.System_Testcase_Loginpage"/>
+        <method signature="System_Testcase_Productpage.VerifyProductSelectionAndCart()[pri:0, instance:ecom.swaglabs.ProductPage.System_Testcase_Productpage@7770f470]" name="VerifyProductSelectionAndCart" class="ecom.swaglabs.ProductPage.System_Testcase_Productpage"/>
+        <method signature="Negative_testcase.BrowserBackAfterCompletedOrder()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="BrowserBackAfterCompletedOrder" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+        <method signature="System_Testcase_cart.multipleProductPurchase()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" name="multipleProductPurchase" class="ecom.swaglabs.Shopping_cart.System_Testcase_cart"/>
+        <method signature="System_Testcase_cart.removeAndPurchaseDifferentProduct()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" name="removeAndPurchaseDifferentProduct" class="ecom.swaglabs.Shopping_cart.System_Testcase_cart"/>
+        <method signature="System_Testcase_cart.singleProductPurchase()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" name="singleProductPurchase" class="ecom.swaglabs.Shopping_cart.System_Testcase_cart"/>
+      </group> <!-- system -->
+      <group name="smoke">
+        <method signature="Smoke_TestCase_CheckoutPage.verifyAllFiledsAredisplayed()[pri:0, instance:ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage@7d20d0b]" name="verifyAllFiledsAredisplayed" class="ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage"/>
+        <method signature="Negative_TestCase_Loginpage.invalidLogin()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="invalidLogin" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Smoke_TestCase_Loginpage.loginButtonClickable()[pri:0, instance:ecom.swaglabs.Login.Smoke_TestCase_Loginpage@131ef10]" name="loginButtonClickable" class="ecom.swaglabs.Login.Smoke_TestCase_Loginpage"/>
+        <method signature="Smoke_TestCase_Loginpage.loginPage()[pri:0, instance:ecom.swaglabs.Login.Smoke_TestCase_Loginpage@131ef10]" name="loginPage" class="ecom.swaglabs.Login.Smoke_TestCase_Loginpage"/>
+        <method signature="Smoke_Testcase_Productpage.SortProducts()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" name="SortProducts" class="ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage"/>
+        <method signature="Smoke_Testcase_Productpage.VerifyProductsDisplayed()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" name="VerifyProductsDisplayed" class="ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage"/>
+        <method signature="Smoke_Testcase_Productpage.sortFilterVisible()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" name="sortFilterVisible" class="ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage"/>
+        <method signature="Negative_testcase.verifyCartCannotcontinueshoppingWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="verifyCartCannotcontinueshoppingWithoutLogin" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+        <method signature="Smoke_Testcase_cart.verifyCartPageShowsAddedProduct()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" name="verifyCartPageShowsAddedProduct" class="ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart"/>
+        <method signature="Smoke_Testcase_cart.verifyCartToCheckout()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" name="verifyCartToCheckout" class="ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart"/>
+        <method signature="Smoke_Testcase_cart.verifyLoginAndProductsPage()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" name="verifyLoginAndProductsPage" class="ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart"/>
+        <method signature="Smoke_Testcase_cart.verifyProductCanBeAddedToCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" name="verifyProductCanBeAddedToCart" class="ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart"/>
+        <method signature="Smoke_Testcase_cart.verifyProductCanBeRemovedFromCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" name="verifyProductCanBeRemovedFromCart" class="ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="Integaration_TestCase_CheckoutPage.productInCartAndCheckoutAreSame()[pri:0, instance:ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage@dd05255]" name="productInCartAndCheckoutAreSame" class="ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage"/>
+        <method signature="Integration_testcase_LoginPage.addProductToCartAfterLogin()[pri:0, instance:ecom.swaglabs.Login.Integration_testcase_LoginPage@55b0dcab]" name="addProductToCartAfterLogin" class="ecom.swaglabs.Login.Integration_testcase_LoginPage"/>
+        <method signature="Integration_testcase_LoginPage.menuIsVisibleAfterLogin()[pri:0, instance:ecom.swaglabs.Login.Integration_testcase_LoginPage@55b0dcab]" name="menuIsVisibleAfterLogin" class="ecom.swaglabs.Login.Integration_testcase_LoginPage"/>
+        <method signature="Negative_TestCase_Loginpage.productPageNotAccessWithoutLogin()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" name="productPageNotAccessWithoutLogin" class="ecom.swaglabs.Login.Negative_TestCase_Loginpage"/>
+        <method signature="Integration_Testcase_Productpage.Add3Products()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" name="Add3Products" class="ecom.swaglabs.ProductPage.Integration_Testcase_Productpage"/>
+        <method signature="Integration_Testcase_Productpage.AddValidProductToCart()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" name="AddValidProductToCart" class="ecom.swaglabs.ProductPage.Integration_Testcase_Productpage"/>
+        <method signature="Integration_Testcase_Productpage.NoProductAddedCartEmpty()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" name="NoProductAddedCartEmpty" class="ecom.swaglabs.ProductPage.Integration_Testcase_Productpage"/>
+        <method signature="Integration_Testcase_cart.VerifyCancelCheckoutPreservesCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" name="VerifyCancelCheckoutPreservesCart" class="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart"/>
+        <method signature="Integration_Testcase_cart.VerifyCartAfterLogoutAndLogin(java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" name="VerifyCartAfterLogoutAndLogin" class="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart"/>
+        <method signature="Integration_Testcase_cart.VerifyCartBadgeAndCartRows()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" name="VerifyCartBadgeAndCartRows" class="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart"/>
+        <method signature="Integration_Testcase_cart.VerifyProductDetailsInCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" name="VerifyProductDetailsInCart" class="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart"/>
+        <method signature="Integration_Testcase_cart.VerifyProductDetailsToCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" name="VerifyProductDetailsToCart" class="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart"/>
+        <method signature="Integration_Testcase_cart.VerifyRemoveItemUpdatesProductsPage()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" name="VerifyRemoveItemUpdatesProductsPage" class="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart"/>
+        <method signature="Negative_testcase.VerifyCartAccessWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="VerifyCartAccessWithoutLogin" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+        <method signature="Negative_testcase.addingAndRemovingRemovesBadge()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" name="addingAndRemovingRemovesBadge" class="ecom.swaglabs.Shopping_cart.Negative_testcase"/>
+      </group> <!-- integration -->
     </groups>
-    <test started-at="2026-10-10T16:55:35 IST" name="Default test" finished-at="2026-10-10T16:55:35 IST" duration-ms="57">
-      <class name="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage">
-        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@313ac989]" started-at="2026-10-10T16:55:35 IST" name="beforemethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1791631535828" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method beforemethod but has not been marked @Optional or defined
-in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1318566113\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method beforemethod but has not been marked @Optional or defined
-in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1318566113\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2026-10-12T11:02:55 IST" name="Parallel Tests" finished-at="2026-10-12T11:06:05 IST" duration-ms="189869">
+      <class name="ecom.swaglabs.ProductPage.Functional_TestCase_Productpage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:03:38 IST" name="beforemethod" finished-at="2026-10-12T11:03:44 IST" duration-ms="6116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="CartCountOneToTwo()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:03:44 IST" name="CartCountOneToTwo" finished-at="2026-10-12T11:03:45 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cart value change-- F04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CartCountOneToTwo -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:03:45 IST" name="aftermethod" finished-at="2026-10-12T11:03:50 IST" duration-ms="4344" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:03:50 IST" name="beforemethod" finished-at="2026-10-12T11:03:56 IST" duration-ms="6566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="EmptyCartZero()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:03:56 IST" name="EmptyCartZero" finished-at="2026-10-12T11:04:07 IST" duration-ms="10437" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[empty cart displayed 0 count on product page-- F03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmptyCartZero -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:07 IST" name="aftermethod" finished-at="2026-10-12T11:04:09 IST" duration-ms="2234" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:09 IST" name="beforemethod" finished-at="2026-10-12T11:04:14 IST" duration-ms="5102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="RefreshPage()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:14 IST" name="RefreshPage" finished-at="2026-10-12T11:04:15 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[after refresh product page is displayed-- F06 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RefreshPage -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:15 IST" name="aftermethod" finished-at="2026-10-12T11:04:16 IST" duration-ms="1460" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:16 IST" name="beforemethod" finished-at="2026-10-12T11:04:22 IST" duration-ms="5605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="SortNameAscending()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:22 IST" name="SortNameAscending" finished-at="2026-10-12T11:04:23 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[sorting from z to A --F01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SortNameAscending -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:23 IST" name="aftermethod" finished-at="2026-10-12T11:04:24 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:24 IST" name="beforemethod" finished-at="2026-10-12T11:04:30 IST" duration-ms="5533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ValidProductDetails()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:30 IST" name="ValidProductDetails" finished-at="2026-10-12T11:04:31 IST" duration-ms="1393" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[products details are validated--F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidProductDetails -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:31 IST" name="aftermethod" finished-at="2026-10-12T11:04:32 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:32 IST" name="beforemethod" finished-at="2026-10-12T11:04:37 IST" duration-ms="5260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyaddtocartbuttononpage()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:37 IST" name="verifyaddtocartbuttononpage" finished-at="2026-10-12T11:04:37 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[add to cart button id diaplyed-- F05 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyaddtocartbuttononpage -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Functional_TestCase_Productpage@24313fcc]" started-at="2026-10-12T11:04:37 IST" name="aftermethod" finished-at="2026-10-12T11:04:39 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.ProductPage.Functional_TestCase_Productpage -->
+      <class name="ecom.swaglabs.Shopping_cart.Integration_Testcase_cart">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:03:34 IST" name="beforemethod" finished-at="2026-10-12T11:03:40 IST" duration-ms="6765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyCancelCheckoutPreservesCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:03:40 IST" name="VerifyCancelCheckoutPreservesCart" finished-at="2026-10-12T11:03:44 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Cancel from Checkout preserves Cart items-- I06 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCancelCheckoutPreservesCart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:03:44 IST" name="aftermethod" finished-at="2026-10-12T11:03:46 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:03:46 IST" name="beforemethod" finished-at="2026-10-12T11:03:52 IST" duration-ms="6153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyCartAfterLogoutAndLogin(java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:03:52 IST" name="VerifyCartAfterLogoutAndLogin" data-provider="loginData" finished-at="2026-10-12T11:03:57 IST" duration-ms="4841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[I05 Passed -- Cart product present after logout and again login: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCartAfterLogoutAndLogin -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:03:57 IST" name="aftermethod" finished-at="2026-10-12T11:03:58 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:03:58 IST" name="beforemethod" finished-at="2026-10-12T11:04:03 IST" duration-ms="5166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyCartBadgeAndCartRows()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:03 IST" name="VerifyCartBadgeAndCartRows" finished-at="2026-10-12T11:04:04 IST" duration-ms="805" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Cart badge count matches Cart row count -- I01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCartBadgeAndCartRows -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:04 IST" name="aftermethod" finished-at="2026-10-12T11:04:04 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:04 IST" name="beforemethod" finished-at="2026-10-12T11:04:10 IST" duration-ms="5594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyProductDetailsInCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:10 IST" name="VerifyProductDetailsInCart" finished-at="2026-10-12T11:04:11 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Product name, description and price are correctly displayed in Cart -- I02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyProductDetailsInCart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:11 IST" name="aftermethod" finished-at="2026-10-12T11:04:12 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:12 IST" name="beforemethod" finished-at="2026-10-12T11:04:17 IST" duration-ms="4993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyProductDetailsToCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:17 IST" name="VerifyProductDetailsToCart" finished-at="2026-10-12T11:04:19 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Product Details page successfully updated Cart-- I03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyProductDetailsToCart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:19 IST" name="aftermethod" finished-at="2026-10-12T11:04:20 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:20 IST" name="beforemethod" finished-at="2026-10-12T11:04:25 IST" duration-ms="5801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyRemoveItemUpdatesProductsPage()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:25 IST" name="VerifyRemoveItemUpdatesProductsPage" finished-at="2026-10-12T11:04:28 IST" duration-ms="2150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Removing item resets Products page button -- I04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyRemoveItemUpdatesProductsPage -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Integration_Testcase_cart@5e5d171f]" started-at="2026-10-12T11:04:28 IST" name="aftermethod" finished-at="2026-10-12T11:04:29 IST" duration-ms="1448" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.Shopping_cart.Integration_Testcase_cart -->
+      <class name="ecom.swaglabs.Login.Integration_testcase_LoginPage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Integration_testcase_LoginPage@55b0dcab]" started-at="2026-10-12T11:04:47 IST" name="beforemethod" finished-at="2026-10-12T11:04:50 IST" duration-ms="2308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="checkoutPageVisible()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@313ac989]" started-at="2026-10-10T16:55:35 IST" name="checkoutPageVisible" finished-at="2026-10-10T16:55:35 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method beforemethod but has not been marked @Optional or defined
-in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1318566113\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method beforemethod but has not been marked @Optional or defined
-in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1318566113\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="addProductToCartAfterLogin()[pri:0, instance:ecom.swaglabs.Login.Integration_testcase_LoginPage@55b0dcab]" started-at="2026-10-12T11:04:50 IST" name="addProductToCartAfterLogin" finished-at="2026-10-12T11:04:52 IST" duration-ms="2170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user is able to login and add a product to cart -- I01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductToCartAfterLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Integration_testcase_LoginPage@55b0dcab]" started-at="2026-10-12T11:04:52 IST" name="afterMethod" finished-at="2026-10-12T11:04:53 IST" duration-ms="1085" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkoutPageVisible -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@313ac989]" started-at="2026-10-10T16:55:35 IST" name="aftermethod" finished-at="2026-10-10T16:55:35 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Integration_testcase_LoginPage@55b0dcab]" started-at="2026-10-12T11:04:53 IST" name="beforemethod" finished-at="2026-10-12T11:04:57 IST" duration-ms="4203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="menuIsVisibleAfterLogin()[pri:0, instance:ecom.swaglabs.Login.Integration_testcase_LoginPage@55b0dcab]" started-at="2026-10-12T11:04:57 IST" name="menuIsVisibleAfterLogin" finished-at="2026-10-12T11:04:59 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[menu is accessible and visible  -- I02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- menuIsVisibleAfterLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Integration_testcase_LoginPage@55b0dcab]" started-at="2026-10-12T11:04:59 IST" name="afterMethod" finished-at="2026-10-12T11:05:00 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ecom.swaglabs.Login.Integration_testcase_LoginPage -->
+      <class name="ecom.swaglabs.Login.Smoke_TestCase_Loginpage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Smoke_TestCase_Loginpage@131ef10]" started-at="2026-10-12T11:04:39 IST" name="beforemethod" finished-at="2026-10-12T11:04:42 IST" duration-ms="2589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginButtonClickable()[pri:0, instance:ecom.swaglabs.Login.Smoke_TestCase_Loginpage@131ef10]" started-at="2026-10-12T11:04:42 IST" name="loginButtonClickable" finished-at="2026-10-12T11:04:43 IST" duration-ms="1342" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login button is displayed and clickable -- SM01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginButtonClickable -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Smoke_TestCase_Loginpage@131ef10]" started-at="2026-10-12T11:04:43 IST" name="afterMethod" finished-at="2026-10-12T11:04:44 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Smoke_TestCase_Loginpage@131ef10]" started-at="2026-10-12T11:04:44 IST" name="beforemethod" finished-at="2026-10-12T11:04:46 IST" duration-ms="2598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginPage()[pri:0, instance:ecom.swaglabs.Login.Smoke_TestCase_Loginpage@131ef10]" started-at="2026-10-12T11:04:46 IST" name="loginPage" finished-at="2026-10-12T11:04:46 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed -- SM01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Smoke_TestCase_Loginpage@131ef10]" started-at="2026-10-12T11:04:46 IST" name="afterMethod" finished-at="2026-10-12T11:04:47 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ecom.swaglabs.Login.Smoke_TestCase_Loginpage -->
+      <class name="ecom.swaglabs.Shopping_cart.Negative_testcase">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:04:37 IST" name="beforemethod" finished-at="2026-10-12T11:04:44 IST" duration-ms="7028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="BrowserBackAfterCompletedOrder()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:04:44 IST" name="BrowserBackAfterCompletedOrder" finished-at="2026-10-12T11:04:59 IST" duration-ms="15028" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Order completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Back executed after completed order]]>
+            </line>
+            <line>
+              <![CDATA[Current URL after Browser Back: https://www.saucedemo.com/inventory.html]]>
+            </line>
+            <line>
+              <![CDATA[Cart badge count after Browser Back: 0]]>
+            </line>
+            <line>
+              <![CDATA[execution completed - actual Browser Back behaviour recorded-- negative 03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserBackAfterCompletedOrder -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:04:59 IST" name="aftermethod" finished-at="2026-10-12T11:05:02 IST" duration-ms="2290" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:02 IST" name="beforemethod" finished-at="2026-10-12T11:05:08 IST" duration-ms="6268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyCartAccessWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:08 IST" name="VerifyCartAccessWithoutLogin" finished-at="2026-10-12T11:05:09 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart cannot be accessed without login -- negative 01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCartAccessWithoutLogin -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:09 IST" name="aftermethod" finished-at="2026-10-12T11:05:09 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:09 IST" name="beforemethod" finished-at="2026-10-12T11:05:17 IST" duration-ms="7843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="addingAndRemovingRemovesBadge()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:17 IST" name="addingAndRemovingRemovesBadge" finished-at="2026-10-12T11:05:39 IST" duration-ms="21607" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[ add to remove to get badge count -- negative 02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addingAndRemovingRemovesBadge -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:39 IST" name="aftermethod" finished-at="2026-10-12T11:05:41 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:41 IST" name="beforemethod" finished-at="2026-10-12T11:05:46 IST" duration-ms="4968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="emptycart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:46 IST" name="emptycart" finished-at="2026-10-12T11:05:56 IST" duration-ms="10627" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[ invalid checkout -- negative 01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emptycart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:56 IST" name="aftermethod" finished-at="2026-10-12T11:05:57 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:05:57 IST" name="beforemethod" finished-at="2026-10-12T11:06:02 IST" duration-ms="4625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyCartCannotcontinueshoppingWithoutLogin()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:06:02 IST" name="verifyCartCannotcontinueshoppingWithoutLogin" finished-at="2026-10-12T11:06:05 IST" duration-ms="2959" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[verifyCart Cannot Be Opened Without Login -- negative 04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartCannotcontinueshoppingWithoutLogin -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Negative_testcase@7bedc48a]" started-at="2026-10-12T11:06:05 IST" name="aftermethod" finished-at="2026-10-12T11:06:05 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.Shopping_cart.Negative_testcase -->
+      <class name="ecom.swaglabs.Login.Negative_TestCase_Loginpage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:29 IST" name="beforemethod" finished-at="2026-10-12T11:04:32 IST" duration-ms="2984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="invalidLogin()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:32 IST" name="invalidLogin" finished-at="2026-10-12T11:04:34 IST" duration-ms="1697" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid login rejected--SM01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:34 IST" name="afterMethod" finished-at="2026-10-12T11:04:34 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:34 IST" name="beforemethod" finished-at="2026-10-12T11:04:38 IST" duration-ms="3347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="invalidLoginJourney()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:38 IST" name="invalidLoginJourney" finished-at="2026-10-12T11:04:40 IST" duration-ms="2072" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Negative Login journey passed--S01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginJourney -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:40 IST" name="afterMethod" finished-at="2026-10-12T11:04:40 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:40 IST" name="beforemethod" finished-at="2026-10-12T11:04:43 IST" duration-ms="2752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="invalidPassword()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:43 IST" name="invalidPassword" finished-at="2026-10-12T11:04:45 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user not logged in beacause of inavlid password-- F01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:45 IST" name="afterMethod" finished-at="2026-10-12T11:04:45 IST" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:45 IST" name="beforemethod" finished-at="2026-10-12T11:04:48 IST" duration-ms="2429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="invalidUsername()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:48 IST" name="invalidUsername" finished-at="2026-10-12T11:04:50 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user not logged in because of invalid username -- F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:50 IST" name="afterMethod" finished-at="2026-10-12T11:04:50 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:50 IST" name="beforemethod" finished-at="2026-10-12T11:04:53 IST" duration-ms="2971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="invalidblankspace()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:53 IST" name="invalidblankspace" finished-at="2026-10-12T11:04:55 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user not logged in because of blank username and password -- F03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidblankspace -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:55 IST" name="afterMethod" finished-at="2026-10-12T11:04:55 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:55 IST" name="beforemethod" finished-at="2026-10-12T11:04:59 IST" duration-ms="3131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="productPageNotAccessWithoutLogin()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:04:59 IST" name="productPageNotAccessWithoutLogin" finished-at="2026-10-12T11:05:01 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product page not accessable without login-- F05 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productPageNotAccessWithoutLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:05:01 IST" name="afterMethod" finished-at="2026-10-12T11:05:01 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:05:01 IST" name="beforemethod" finished-at="2026-10-12T11:05:06 IST" duration-ms="4063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifylocked_user()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:05:06 IST" name="verifylocked_user" finished-at="2026-10-12T11:05:07 IST" duration-ms="1720" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user not logged in because of locked_user-- F04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylocked_user -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Negative_TestCase_Loginpage@6c40365c]" started-at="2026-10-12T11:05:07 IST" name="afterMethod" finished-at="2026-10-12T11:05:08 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ecom.swaglabs.Login.Negative_TestCase_Loginpage -->
+      <class name="ecom.swaglabs.Login.Functional_testcase_login">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:02:57 IST" name="beforemethod" finished-at="2026-10-12T11:03:06 IST" duration-ms="9730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="differentLoginCredentials(java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:06 IST" name="differentLoginCredentials" data-provider="validusers" finished-at="2026-10-12T11:03:10 IST" duration-ms="3410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[valid users logged in -- F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- differentLoginCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:10 IST" name="afterMethod" finished-at="2026-10-12T11:03:11 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:11 IST" name="beforemethod" finished-at="2026-10-12T11:03:15 IST" duration-ms="3861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="differentLoginCredentials(java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:15 IST" name="differentLoginCredentials" data-provider="validusers" finished-at="2026-10-12T11:03:20 IST" duration-ms="4934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[valid users logged in -- F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- differentLoginCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:20 IST" name="afterMethod" finished-at="2026-10-12T11:03:22 IST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:22 IST" name="beforemethod" finished-at="2026-10-12T11:03:24 IST" duration-ms="2564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="differentLoginCredentials(java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:24 IST" name="differentLoginCredentials" data-provider="validusers" finished-at="2026-10-12T11:03:31 IST" duration-ms="6963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[valid users logged in -- F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- differentLoginCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:31 IST" name="afterMethod" finished-at="2026-10-12T11:03:33 IST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:33 IST" name="beforemethod" finished-at="2026-10-12T11:03:36 IST" duration-ms="3570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="differentLoginCredentials(java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:36 IST" name="differentLoginCredentials" data-provider="validusers" finished-at="2026-10-12T11:03:39 IST" duration-ms="2716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[valid users logged in -- F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- differentLoginCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:39 IST" name="afterMethod" finished-at="2026-10-12T11:03:41 IST" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:41 IST" name="beforemethod" finished-at="2026-10-12T11:03:44 IST" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="differentLoginCredentials(java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:44 IST" name="differentLoginCredentials" data-provider="validusers" finished-at="2026-10-12T11:03:46 IST" duration-ms="1859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[valid users logged in -- F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- differentLoginCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:46 IST" name="afterMethod" finished-at="2026-10-12T11:03:46 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:46 IST" name="beforemethod" finished-at="2026-10-12T11:03:49 IST" duration-ms="3248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="validLoginCredentials()[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:49 IST" name="validLoginCredentials" finished-at="2026-10-12T11:03:53 IST" duration-ms="3128" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[valid login is succesfully logged in -- F01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.Functional_testcase_login@3bd82cf5]" started-at="2026-10-12T11:03:53 IST" name="afterMethod" finished-at="2026-10-12T11:03:54 IST" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ecom.swaglabs.Login.Functional_testcase_login -->
+      <class name="ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@2df3b89c]" started-at="2026-10-12T11:05:00 IST" name="beforemethod" finished-at="2026-10-12T11:05:07 IST" duration-ms="6994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkoutPageVisible()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@2df3b89c]" started-at="2026-10-12T11:05:07 IST" name="checkoutPageVisible" finished-at="2026-10-12T11:05:08 IST" duration-ms="771" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[checkout page is displayed -- F01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutPageVisible -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@2df3b89c]" started-at="2026-10-12T11:05:08 IST" name="aftermethod" finished-at="2026-10-12T11:05:09 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@2df3b89c]" started-at="2026-10-12T11:05:09 IST" name="beforemethod" finished-at="2026-10-12T11:05:17 IST" duration-ms="8017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkoutPageVisibleAfterData()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@2df3b89c]" started-at="2026-10-12T11:05:17 IST" name="checkoutPageVisibleAfterData" finished-at="2026-10-12T11:05:19 IST" duration-ms="1904" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page is open with valid information -- F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutPageVisibleAfterData -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage@2df3b89c]" started-at="2026-10-12T11:05:19 IST" name="aftermethod" finished-at="2026-10-12T11:05:20 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
           </reporter-output>
         </test-method> <!-- aftermethod -->
       </class> <!-- ecom.swaglabs.CheckoutPage.Functional_Testcase_CheckoutPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage@1ff4931d]" started-at="2026-10-12T11:02:55 IST" name="beforemethod" finished-at="2026-10-12T11:03:11 IST" duration-ms="15753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="fullCompleeteOrder()[pri:0, instance:ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage@1ff4931d]" started-at="2026-10-12T11:03:11 IST" name="fullCompleeteOrder" finished-at="2026-10-12T11:03:14 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[complete product purchase is done  -- S01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fullCompleeteOrder -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage@1ff4931d]" started-at="2026-10-12T11:03:14 IST" name="aftermethod" finished-at="2026-10-12T11:03:14 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.CheckoutPage.System_TestCase_CheckoutPage -->
+      <class name="ecom.swaglabs.ProductPage.Integration_Testcase_Productpage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:02 IST" name="beforemethod" finished-at="2026-10-12T11:05:08 IST" duration-ms="6576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Add3Products()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:08 IST" name="Add3Products" finished-at="2026-10-12T11:05:09 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[3 product is added to cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add3Products -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:09 IST" name="aftermethod" finished-at="2026-10-12T11:05:10 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:10 IST" name="beforemethod" finished-at="2026-10-12T11:05:18 IST" duration-ms="7796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="AddValidProductToCart()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:18 IST" name="AddValidProductToCart" finished-at="2026-10-12T11:05:18 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[product is added to cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddValidProductToCart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:18 IST" name="aftermethod" finished-at="2026-10-12T11:05:19 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:19 IST" name="beforemethod" finished-at="2026-10-12T11:05:24 IST" duration-ms="4819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="NoProductAddedCartEmpty()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:24 IST" name="NoProductAddedCartEmpty" finished-at="2026-10-12T11:05:44 IST" duration-ms="20257" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[added product to empty cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NoProductAddedCartEmpty -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Integration_Testcase_Productpage@23348b5d]" started-at="2026-10-12T11:05:44 IST" name="aftermethod" finished-at="2026-10-12T11:05:45 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.ProductPage.Integration_Testcase_Productpage -->
+      <class name="ecom.swaglabs.Shopping_cart.Functional_Testcase_cart">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:02:55 IST" name="beforemethod" finished-at="2026-10-12T11:03:11 IST" duration-ms="15769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="addAndRemove()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:11 IST" name="addAndRemove" finished-at="2026-10-12T11:03:12 IST" duration-ms="1161" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[F06 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAndRemove -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:12 IST" name="aftermethod" finished-at="2026-10-12T11:03:13 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:13 IST" name="beforemethod" finished-at="2026-10-12T11:03:21 IST" duration-ms="8290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="all6Items()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:21 IST" name="all6Items" finished-at="2026-10-12T11:03:24 IST" duration-ms="2612" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[all 6 products added are displayed in cart -- F05 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- all6Items -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:24 IST" name="aftermethod" finished-at="2026-10-12T11:03:25 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:25 IST" name="beforemethod" finished-at="2026-10-12T11:03:32 IST" duration-ms="6901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="bigProductDetailsAreSame()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:32 IST" name="bigProductDetailsAreSame" finished-at="2026-10-12T11:03:33 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[F08 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bigProductDetailsAreSame -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:33 IST" name="aftermethod" finished-at="2026-10-12T11:03:33 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:33 IST" name="beforemethod" finished-at="2026-10-12T11:03:40 IST" duration-ms="6712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="cartNavigate()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:40 IST" name="cartNavigate" finished-at="2026-10-12T11:03:41 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to cart section -- F02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartNavigate -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:41 IST" name="aftermethod" finished-at="2026-10-12T11:03:42 IST" duration-ms="978" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:42 IST" name="beforemethod" finished-at="2026-10-12T11:03:47 IST" duration-ms="5762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="oneProduct()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:47 IST" name="oneProduct" finished-at="2026-10-12T11:03:49 IST" duration-ms="2044" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[product 1 is displayed in cart -- F01 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneProduct -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:49 IST" name="aftermethod" finished-at="2026-10-12T11:03:50 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:50 IST" name="beforemethod" finished-at="2026-10-12T11:03:56 IST" duration-ms="6167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="oneProductRemove()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:03:56 IST" name="oneProductRemove" finished-at="2026-10-12T11:04:18 IST" duration-ms="21395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[product 1 is removed from the cart -- F03 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneProductRemove -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:04:18 IST" name="aftermethod" finished-at="2026-10-12T11:04:20 IST" duration-ms="2547" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:04:20 IST" name="beforemethod" finished-at="2026-10-12T11:04:26 IST" duration-ms="5489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="productsInAndAfter()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:04:26 IST" name="productsInAndAfter" finished-at="2026-10-12T11:04:28 IST" duration-ms="2365" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[F07 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productsInAndAfter -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:04:28 IST" name="aftermethod" finished-at="2026-10-12T11:04:29 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:04:29 IST" name="beforemethod" finished-at="2026-10-12T11:04:34 IST" duration-ms="5636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyOneProductInCaRt()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:04:34 IST" name="verifyOneProductInCaRt" finished-at="2026-10-12T11:04:35 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[product 1 is still in cart -- F04 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOneProductInCaRt -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Functional_Testcase_cart@65e98b1c]" started-at="2026-10-12T11:04:35 IST" name="aftermethod" finished-at="2026-10-12T11:04:37 IST" duration-ms="1952" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.Shopping_cart.Functional_Testcase_cart -->
+      <class name="ecom.swaglabs.ProductPage.Negative_Testcase_Productpage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Negative_Testcase_Productpage@38afe297]" started-at="2026-10-12T11:04:51 IST" name="beforemethod" finished-at="2026-10-12T11:04:58 IST" duration-ms="7020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="NoProductAddedCartEmpty()[pri:0, instance:ecom.swaglabs.ProductPage.Negative_Testcase_Productpage@38afe297]" started-at="2026-10-12T11:04:58 IST" name="NoProductAddedCartEmpty" finished-at="2026-10-12T11:05:18 IST" duration-ms="20642" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[added product to empty cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NoProductAddedCartEmpty -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Negative_Testcase_Productpage@38afe297]" started-at="2026-10-12T11:05:18 IST" name="aftermethod" finished-at="2026-10-12T11:05:19 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.ProductPage.Negative_Testcase_Productpage -->
+      <class name="ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage@dd05255]" started-at="2026-10-12T11:02:55 IST" name="beforemethod" finished-at="2026-10-12T11:03:11 IST" duration-ms="15689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="productInCartAndCheckoutAreSame()[pri:0, instance:ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage@dd05255]" started-at="2026-10-12T11:03:11 IST" name="productInCartAndCheckoutAreSame" finished-at="2026-10-12T11:03:13 IST" duration-ms="2220" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Product in cart and overview page -- I01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productInCartAndCheckoutAreSame -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage@dd05255]" started-at="2026-10-12T11:03:13 IST" name="aftermethod" finished-at="2026-10-12T11:03:14 IST" duration-ms="900" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.CheckoutPage.Integaration_TestCase_CheckoutPage -->
+      <class name="ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:02:55 IST" name="beforemethod" finished-at="2026-10-12T11:03:11 IST" duration-ms="15690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="SortProducts()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:03:11 IST" name="SortProducts" finished-at="2026-10-12T11:03:12 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Products are sorted- SM03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SortProducts -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:03:12 IST" name="aftermethod" finished-at="2026-10-12T11:03:14 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:03:14 IST" name="beforemethod" finished-at="2026-10-12T11:03:22 IST" duration-ms="8083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyProductsDisplayed()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:03:22 IST" name="VerifyProductsDisplayed" finished-at="2026-10-12T11:03:22 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[product values are displayed- SM01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyProductsDisplayed -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:03:22 IST" name="aftermethod" finished-at="2026-10-12T11:03:25 IST" duration-ms="2788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:03:25 IST" name="beforemethod" finished-at="2026-10-12T11:03:31 IST" duration-ms="6735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="sortFilterVisible()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:03:31 IST" name="sortFilterVisible" finished-at="2026-10-12T11:03:32 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[sort is diaplayed- SM02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortFilterVisible -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage@544fa968]" started-at="2026-10-12T11:03:32 IST" name="aftermethod" finished-at="2026-10-12T11:03:34 IST" duration-ms="1526" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.ProductPage.Smoke_Testcase_Productpage -->
+      <class name="ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:14 IST" name="beforemethod" finished-at="2026-10-12T11:03:21 IST" duration-ms="6862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="cannotCompleteWithCancel()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:21 IST" name="cannotCompleteWithCancel" finished-at="2026-10-12T11:03:23 IST" duration-ms="1530" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[User cannot complete order after clicking cancel on checkout overview page -- S01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cannotCompleteWithCancel -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:23 IST" name="aftermethod" finished-at="2026-10-12T11:03:25 IST" duration-ms="2129" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:25 IST" name="beforemethod" finished-at="2026-10-12T11:03:31 IST" duration-ms="6155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkoutPageInvalidDataOfAllData()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:31 IST" name="checkoutPageInvalidDataOfAllData" finished-at="2026-10-12T11:03:33 IST" duration-ms="1967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page is open with invalid information -- F01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutPageInvalidDataOfAllData -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:33 IST" name="aftermethod" finished-at="2026-10-12T11:03:33 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:33 IST" name="beforemethod" finished-at="2026-10-12T11:03:40 IST" duration-ms="7014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkoutpageinvalidDataOfOnlyOneField()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:40 IST" name="checkoutpageinvalidDataOfOnlyOneField" finished-at="2026-10-12T11:03:43 IST" duration-ms="3098" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page is open with invalid zipcode information -- I02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutpageinvalidDataOfOnlyOneField -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage@d35dea7]" started-at="2026-10-12T11:03:43 IST" name="aftermethod" finished-at="2026-10-12T11:03:44 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.CheckoutPage.Negative_TestCase_CheckoutPage -->
+      <class name="ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:03:54 IST" name="beforemethod" finished-at="2026-10-12T11:04:00 IST" duration-ms="5469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyCartPageShowsAddedProduct()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:00 IST" name="verifyCartPageShowsAddedProduct" finished-at="2026-10-12T11:04:00 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[cart shows added product -- SM03 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageShowsAddedProduct -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:00 IST" name="aftermethod" finished-at="2026-10-12T11:04:01 IST" duration-ms="922" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:01 IST" name="beforemethod" finished-at="2026-10-12T11:04:06 IST" duration-ms="5146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyCartToCheckout()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:06 IST" name="verifyCartToCheckout" finished-at="2026-10-12T11:04:07 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[cart to checkout-- SM04 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartToCheckout -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:07 IST" name="aftermethod" finished-at="2026-10-12T11:04:07 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:07 IST" name="beforemethod" finished-at="2026-10-12T11:04:12 IST" duration-ms="4902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyLoginAndProductsPage()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:12 IST" name="verifyLoginAndProductsPage" finished-at="2026-10-12T11:04:12 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[cart is displayed -- SM01 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginAndProductsPage -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:12 IST" name="aftermethod" finished-at="2026-10-12T11:04:14 IST" duration-ms="1559" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:14 IST" name="beforemethod" finished-at="2026-10-12T11:04:19 IST" duration-ms="5803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyProductCanBeAddedToCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:19 IST" name="verifyProductCanBeAddedToCart" finished-at="2026-10-12T11:04:20 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[product can be added -- SM02 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductCanBeAddedToCart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:20 IST" name="aftermethod" finished-at="2026-10-12T11:04:23 IST" duration-ms="3371" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:23 IST" name="beforemethod" finished-at="2026-10-12T11:04:29 IST" duration-ms="5809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyProductCanBeRemovedFromCart()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:29 IST" name="verifyProductCanBeRemovedFromCart" finished-at="2026-10-12T11:04:50 IST" duration-ms="20690" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[product can be removed from cart-- SM05 passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductCanBeRemovedFromCart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart@41a2befb]" started-at="2026-10-12T11:04:50 IST" name="aftermethod" finished-at="2026-10-12T11:04:51 IST" duration-ms="1067" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.Shopping_cart.Smoke_Testcase_cart -->
+      <class name="ecom.swaglabs.ProductPage.System_Testcase_Productpage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.ProductPage.System_Testcase_Productpage@7770f470]" started-at="2026-10-12T11:03:30 IST" name="beforemethod" finished-at="2026-10-12T11:03:35 IST" duration-ms="5137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyProductSelectionAndCart()[pri:0, instance:ecom.swaglabs.ProductPage.System_Testcase_Productpage@7770f470]" started-at="2026-10-12T11:03:35 IST" name="VerifyProductSelectionAndCart" finished-at="2026-10-12T11:03:38 IST" duration-ms="2741" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[complete product page testing -- S01]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyProductSelectionAndCart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.ProductPage.System_Testcase_Productpage@7770f470]" started-at="2026-10-12T11:03:38 IST" name="aftermethod" finished-at="2026-10-12T11:03:38 IST" duration-ms="790" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.ProductPage.System_Testcase_Productpage -->
+      <class name="ecom.swaglabs.Login.System_Testcase_Loginpage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.System_Testcase_Loginpage@247bddad]" started-at="2026-10-12T11:03:14 IST" name="beforemethod" finished-at="2026-10-12T11:03:18 IST" duration-ms="3762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="logoutFromMenu()[pri:0, instance:ecom.swaglabs.Login.System_Testcase_Loginpage@247bddad]" started-at="2026-10-12T11:03:18 IST" name="logoutFromMenu" finished-at="2026-10-12T11:03:22 IST" duration-ms="3698" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[user is logged out succesfully from hamburger menu-- S02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromMenu -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.System_Testcase_Loginpage@247bddad]" started-at="2026-10-12T11:03:22 IST" name="afterMethod" finished-at="2026-10-12T11:03:22 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.System_Testcase_Loginpage@247bddad]" started-at="2026-10-12T11:03:22 IST" name="beforemethod" finished-at="2026-10-12T11:03:25 IST" duration-ms="2750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyCompleteLogin()[pri:0, instance:ecom.swaglabs.Login.System_Testcase_Loginpage@247bddad]" started-at="2026-10-12T11:03:25 IST" name="verifyCompleteLogin" finished-at="2026-10-12T11:03:29 IST" duration-ms="4215" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Complete Login journey passed-- S01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecom.swaglabs.Login.System_Testcase_Loginpage@247bddad]" started-at="2026-10-12T11:03:29 IST" name="afterMethod" finished-at="2026-10-12T11:03:30 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ecom.swaglabs.Login.System_Testcase_Loginpage -->
+      <class name="ecom.swaglabs.Shopping_cart.System_Testcase_cart">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:03:54 IST" name="beforemethod" finished-at="2026-10-12T11:04:00 IST" duration-ms="6426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="multipleProductPurchase()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:04:00 IST" name="multipleProductPurchase" finished-at="2026-10-12T11:04:13 IST" duration-ms="12909" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Multiple product purchase completed successfully -- S02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multipleProductPurchase -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:04:13 IST" name="aftermethod" finished-at="2026-10-12T11:04:15 IST" duration-ms="2285" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:04:15 IST" name="beforemethod" finished-at="2026-10-12T11:04:21 IST" duration-ms="5862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="removeAndPurchaseDifferentProduct()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:04:21 IST" name="removeAndPurchaseDifferentProduct" finished-at="2026-10-12T11:04:35 IST" duration-ms="14116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Removed product was not purchased and different product was successfully purchased-- S03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeAndPurchaseDifferentProduct -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:04:35 IST" name="aftermethod" finished-at="2026-10-12T11:04:38 IST" duration-ms="2420" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:04:38 IST" name="beforemethod" finished-at="2026-10-12T11:04:44 IST" duration-ms="6514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="singleProductPurchase()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:04:44 IST" name="singleProductPurchase" finished-at="2026-10-12T11:04:59 IST" duration-ms="14888" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Single product purchase completed successfully -- S01 Passed]]>
+            </line>
+            <line>
+              <![CDATA[Cart is empty after purchase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- singleProductPurchase -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.Shopping_cart.System_Testcase_cart@77f1baf5]" started-at="2026-10-12T11:04:59 IST" name="aftermethod" finished-at="2026-10-12T11:05:02 IST" duration-ms="2321" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successful]]>
+            </line>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.Shopping_cart.System_Testcase_cart -->
+      <class name="ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage@7d20d0b]" started-at="2026-10-12T11:03:44 IST" name="beforemethod" finished-at="2026-10-12T11:03:52 IST" duration-ms="7134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful on edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyAllFiledsAredisplayed()[pri:0, instance:ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage@7d20d0b]" started-at="2026-10-12T11:03:52 IST" name="verifyAllFiledsAredisplayed" finished-at="2026-10-12T11:03:54 IST" duration-ms="2118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[All the fields are displayed -- SM01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllFiledsAredisplayed -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage@7d20d0b]" started-at="2026-10-12T11:03:54 IST" name="aftermethod" finished-at="2026-10-12T11:03:54 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- ecom.swaglabs.CheckoutPage.Smoke_TestCase_CheckoutPage -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- saucedemo parallel Suite -->
 </testng-results>
