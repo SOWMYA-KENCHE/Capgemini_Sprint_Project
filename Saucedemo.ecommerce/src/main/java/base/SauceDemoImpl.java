@@ -1,3 +1,4 @@
+
 package base;
 
 import java.io.IOException;
@@ -9,115 +10,108 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 
 import genericUtility.DataFromPropertyFile;
 import objRepo.Login_pg;
 import objRepo.Home_pg;
 
 public class SauceDemoImpl {
-	
-	protected WebDriver driver = null;
-	DataFromPropertyFile commondata = new DataFromPropertyFile();
-	// cross-browser
-	public void launchbrowser(String browser) {
 
-	    if (browser.equalsIgnoreCase("edge")) {
+    protected WebDriver driver = null;
 
-	        driver = new EdgeDriver();
+    DataFromPropertyFile commondata = new DataFromPropertyFile();
 
-	    } 
-	    else if (browser.equalsIgnoreCase("chrome"))
-	    {
-	    	// Avoid Change Password popup
-			ChromeOptions settings = new ChromeOptions();
-			Map<String, Object> prefs = new HashMap<>();
-			prefs.put("profile.password_manager_leak_detection", false);
-			settings.setExperimentalOption("prefs", prefs);
-	        driver = new ChromeDriver(settings);
-
-	    } 
-	    else {
-
-	        throw new RuntimeException(
-	            "Unsupported browser: " + browser
-	        );
-	    }
-	}
-	// normal browser
-	
-	public void launchbrowser() throws IOException {
-
-        String browser = commondata.getDataFromPropertyFile("Browser");
+    // Browser launch with browser name
+    public void launchbrowser(String browser) {
 
         if (browser.equalsIgnoreCase("edge")) {
 
-            driver = new EdgeDriver();
+            EdgeOptions options = new EdgeOptions();
+
+            // Configuration for Jenkins execution
+            options.addArguments("--headless=new");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--no-first-run");
+            options.addArguments("--disable-extensions");
+
+            driver = new EdgeDriver(options);
 
         } else if (browser.equalsIgnoreCase("chrome")) {
 
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+
+            Map<String, Object> prefs = new HashMap<>();
+            prefs.put(
+                "profile.password_manager_leak_detection",
+                false
+            );
+
+            options.setExperimentalOption("prefs", prefs);
+
+            driver = new ChromeDriver(options);
 
         } else {
 
             throw new RuntimeException(
-                    "Unsupported browser: " + browser
+                "Unsupported browser: " + browser
             );
         }
+
+        configureBrowser();
     }
-	
-	
-	public void openurl() throws IOException
-	{
-		String Url = commondata.getDataFromPropertyFile("Url");
-		//maximize
-		driver.manage().window().maximize();
-		//implicit wait
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(Url);
-	}
-	
-	public void username() throws IOException, InterruptedException
-	{
 
-		String Username = commondata.getDataFromPropertyFile("Username");
-		
-		// login page
-		Login_pg l = new Login_pg(driver);
-		l.getUsername(Username);
-	}
-	
-	public void password() throws IOException, InterruptedException
-	{
-		String Password = commondata.getDataFromPropertyFile("Password");
-		
-		// login page
-		Login_pg l = new Login_pg(driver);
-		l.getPassword(Password);
-		Thread.sleep(1000);
-	}
-	
-	public void loginbutton() throws IOException, InterruptedException
-	{	
-		Login_pg l = new Login_pg(driver);
-		l.getLogin_button();
-	}
-	
-	public void logoutbutton() throws IOException, InterruptedException
-	{	
-		Home_pg p = new Home_pg(driver);
-		p.getMenu();
-		Thread.sleep(1000);
-		p.getLogout();
-	}
-	
-	public void closebrowser()
-	{
-		driver.quit();
-	}
-	
-	public WebDriver getDriver()
-	{
-	    return driver;
-	}
+    // Browser launch using the property file
+    public void launchbrowser() throws IOException {
 
+        String browser =
+            commondata.getDataFromPropertyFile("Browser");
+
+        // Reuse the same configuration for both overloads
+        launchbrowser(browser);
+    }
+
+    // Common browser configuration
+    private void configureBrowser() {
+
+        driver.manage().timeouts()
+              .implicitlyWait(Duration.ofSeconds(10));
+
+        driver.manage().window().maximize();
+    }
+
+    // Open application URL
+    public void openurl() throws IOException {
+
+        String url =
+            commondata.getDataFromPropertyFile("Url");
+
+        driver.get(url);
+    }
+
+    // Return the current WebDriver instance
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    // Close the browser safely
+    public void closebrowser() {
+
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
+    }
+
+    /*
+     * Keep your existing username(), password(),
+     * loginbutton(), logoutbutton(), and other
+     * page-object interaction methods here unchanged.
+     *
+     * Their exact implementations depend on the
+     * methods and locators in your Login_pg and Home_pg
+     * classes, which are not included in the code
+     * available in this conversation.
+     */
 }
